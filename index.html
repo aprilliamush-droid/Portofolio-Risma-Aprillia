@@ -1,0 +1,1034 @@
+<!DOCTYPE html><html class="light" lang="en" style="scroll-behavior: smooth;"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>ILY FRUITY! ★ Risma Aprillia — Digital Design Portfolio</title>
+<meta name="description" content="Portfolio of Risma Aprillia, Visual Communication Design student at SMKN 10 Surabaya. Logos, branding, illustration, layout, and playful digital craft.">
+<meta name="author" content="Risma Aprillia">
+<meta name="theme-color" content="#bd3a3a">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ILY FRUITY! ★ Risma Aprillia — Portfolio">
+<meta property="og:description" content="A cozy digital orchard of logos, branding, and painterly illustration by Risma Aprillia.">
+<meta property="og:site_name" content="ILY FRUITY!">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ILY FRUITY! ★ Risma Aprillia — Portfolio">
+<meta name="twitter:description" content="A cozy digital orchard of logos, branding, and painterly illustration by Risma Aprillia.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍎</text></svg>">
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&amp;family=Fredoka:wght@400;500;600;700&amp;family=Rubik:wght@500;700;800&amp;family=Sniglet:wght@400;800&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config -->
+<script id="tailwind-config">
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        colors: {
+          "primary": "#bd3a3a",
+          "primary-dark": "#9b2125",
+          "secondary": "#a2b350",
+          "secondary-dark": "#7b8e3a",
+          "accent-yellow": "#f3ce60",
+          "accent-yellow-dark": "#d9b33a",
+          "espresso": "#3a1d13",
+          "cream": "#fcf6dc",
+          "cream-light": "#fffdf2",
+          "cream-dark": "#f5ecc2",
+          "sage": "#85974b",
+          "sage-light": "#d8e2b2",
+          "sage-dark": "#5e6c2e",
+          "surface": "#fff9eb",
+          "background": "#fdf8e6"
+        },
+        fontFamily: {
+          "body": ["Comfortaa", "cursive", "sans-serif"],
+          "title": ["Fredoka", "Rubik", "sans-serif"],
+          "sniglet": ["Sniglet", "cursive"],
+          "mono": ["Space Mono", "monospace"]
+        },
+        boxShadow: {
+          "chunky": "3px 3px 0px #3a1d13",
+          "chunky-sm": "2px 2px 0px #3a1d13",
+          "chunky-lg": "5px 5px 0px #3a1d13"
+        }
+      }
+    }
+  }
+</script>
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Body background */
+  body {
+    background-color: #f6eed5;
+    background-image: 
+      linear-gradient(45deg, rgba(139, 154, 70, 0.12) 25%, transparent 25%, transparent 75%, rgba(139, 154, 70, 0.12) 75%),
+      linear-gradient(45deg, rgba(139, 154, 70, 0.12) 25%, transparent 25%, transparent 75%, rgba(139, 154, 70, 0.12) 75%);
+    background-size: 32px 32px;
+    background-position: 0 0, 16px 16px;
+    color: #3a1d13;
+  }
+
+  /* Vintage Red & Cream Gingham Tablecloth Checkered Pattern */
+  .pattern-gingham-tablecloth {
+    background-color: #fff9f0;
+    background-image: 
+      linear-gradient(90deg, rgba(178, 48, 48, 0.28) 50%, transparent 50%),
+      linear-gradient(rgba(178, 48, 48, 0.28) 50%, transparent 50%);
+    background-size: 36px 36px;
+  }
+
+  /* Polka dot pattern */
+  .pattern-polka-green {
+    background-color: #85974b;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.35) 2.5px, transparent 2.5px);
+    background-size: 14px 14px;
+  }
+
+  /* Yellow fine vertical pinstripes */
+  .pattern-pinstripe-yellow {
+    background-color: #f3ce60;
+    background-image: repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 6px,
+      rgba(195, 145, 30, 0.25) 6px,
+      rgba(195, 145, 30, 0.25) 12px
+    );
+  }
+
+  /* Olive strip banner */
+  .pattern-olive-strip {
+    background-color: #7b8e3a;
+    background-image: linear-gradient(180deg, #85974b 0%, #69782c 100%);
+  }
+
+  /* Tactile Retro Y2K Button Interactions */
+  .btn-squishy {
+    transition: transform 0.15s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.15s ease, background-color 0.15s ease;
+    cursor: pointer;
+    user-select: none;
+  }
+  .btn-squishy:hover {
+    transform: translateY(-2px) scale(1.03);
+  }
+  .btn-squishy:active {
+    transform: translateY(2px) scale(0.96);
+    box-shadow: 1px 1px 0px 0px #3a1d13 !important;
+  }
+
+  /* Squishy wiggle interactive stickers */
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(-5deg) scale(1); }
+    50% { transform: rotate(5deg) scale(1.08); }
+  }
+  .sticker-squishy {
+    transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+    cursor: pointer;
+    user-select: none;
+  }
+  .sticker-squishy:hover {
+    animation: wiggle 0.4s ease-in-out infinite alternate;
+  }
+  .sticker-squishy:active {
+    transform: scale(0.9) rotate(0deg);
+  }
+
+  /* Curly flourish ribbon border */
+  .curly-doodle {
+    font-family: 'Comfortaa', cursive;
+    letter-spacing: -2px;
+    user-select: none;
+  }
+
+  /* Floating background elements animations */
+  @keyframes floatSlow {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-14px) rotate(4deg); }
+  }
+  @keyframes floatMedium {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-10px) rotate(-5deg); }
+  }
+  @keyframes twinkle {
+    0%, 100% { opacity: 0.35; transform: scale(0.85); }
+    50% { opacity: 1; transform: scale(1.15) rotate(12deg); }
+  }
+  @keyframes gentleRotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .animate-float-slow {
+    animation: floatSlow 5s ease-in-out infinite;
+  }
+  .animate-float-medium {
+    animation: floatMedium 4s ease-in-out infinite;
+  }
+  .animate-twinkle-1 {
+    animation: twinkle 2.5s ease-in-out infinite;
+  }
+  .animate-twinkle-2 {
+    animation: twinkle 3.2s ease-in-out 0.8s infinite;
+  }
+  .animate-twinkle-3 {
+    animation: twinkle 2.8s ease-in-out 1.4s infinite;
+  }
+  .animate-spiral {
+    animation: gentleRotate 24s linear infinite;
+  }
+
+  /* Accessible focus ring */
+  :focus-visible {
+    outline: 3px solid #bd3a3a;
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+
+  /* Keep anchored sections clear of the sticky nav */
+  #home, #about-craft, #skills, #portfolio, #footer-contact {
+    scroll-margin-top: 92px;
+  }
+
+  /* Ensure the .hidden utility always wins */
+  [hidden] { display: none !important; }
+
+  /* Modal transitions */
+  @keyframes modal-backdrop-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  @keyframes modal-panel-in {
+    from { opacity: 0; transform: translateY(14px) scale(0.96); }
+    to { opacity: 1; transform: translateY(0) scale(1); }
+  }
+  .modal-backdrop { animation: modal-backdrop-in 0.18s ease-out; }
+  .modal-panel { animation: modal-panel-in 0.22s cubic-bezier(0.34, 1.56, 0.64, 1); }
+
+  /* Apple pop on portrait click */
+  .apple-pop {
+    position: fixed;
+    z-index: 9999;
+    pointer-events: none;
+    line-height: 1;
+    will-change: transform, opacity;
+    animation: apple-pop 0.9s cubic-bezier(0.2, 0.6, 0.4, 1) forwards;
+  }
+  @keyframes apple-pop {
+    0% { opacity: 0; transform: translate(0, 0) scale(0.4) rotate(0deg); }
+    15% { opacity: 1; transform: translate(calc(var(--dx) * 0.2), calc(var(--dy) * 0.2)) scale(1.1) rotate(8deg); }
+    100% { opacity: 0; transform: translate(var(--dx), var(--dy)) scale(1.35) rotate(var(--rot)); }
+  }
+
+  /* Respect users who prefer less motion */
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001s !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001s !important;
+    }
+  }
+</style>
+</head>
+<body class="min-h-screen p-3 sm:p-6 md:p-10 flex justify-center items-center font-body text-espresso">
+<!-- Skip link for keyboard / screen-reader users -->
+<a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[200] focus:bg-[#9b2125] focus:text-[#fffdf0] focus:px-4 focus:py-2 focus:rounded-xl focus:border-2 focus:border-espresso focus:shadow-chunky-sm font-title font-bold text-sm">Skip to content</a>
+<!-- Polaroid / Vintage Carrd Outer Frame -->
+<main id="main" tabindex="-1" class="w-full max-w-[960px] bg-[#fcf5de] border-[6px] border-[#3a1d13] rounded-3xl p-3 sm:p-5 shadow-[12px_12px_0px_#3a1d13] relative">
+<!-- Browser Window Wrapper -->
+<div class="border-[5px] border-[#3a1d13] rounded-2xl overflow-hidden bg-cream-light shadow-[4px_4px_0px_rgba(58,29,19,0.3)]">
+<!-- Top Green Dot Header Bar -->
+<header class="border-b-[5px] border-espresso px-3 sm:px-5 py-3 flex flex-wrap items-center justify-between gap-2.5 bg-[#69792c]" style="background-image: radial-gradient(rgba(255, 255, 255, 0.25) 2px, transparent 2px); background-size: 14px 14px;">
+<!-- Title text with bold white-outlined look -->
+<div class="flex items-center gap-2">
+<h1 class="font-title text-2xl sm:text-3xl font-extrabold tracking-wide text-[#fffdf0] drop-shadow-[2px_2px_0px_#3a1d13]">
+  ILY FRUITY !?
+</h1>
+</div>
+<!-- Address / Username Badge -->
+<div class="bg-[#fcf5de] border-[3px] border-espresso rounded-xl px-4 py-1.5 flex items-center gap-1.5 shadow-chunky-sm">
+<span class="text-espresso font-title text-sm sm:text-base font-bold flex items-center gap-1"><span class="text-accent-yellow drop-shadow-[1px_1px_0px_#3a1d13]">★</span> rismaaprillia</span>
+</div>
+<!-- Top Nav Mini Arrow Controls -->
+<div class="flex items-center gap-2">
+<button aria-label="Back" class="btn-squishy bg-accent-yellow hover:bg-accent-yellow-dark border-[2.5px] border-espresso rounded-lg w-8 h-8 flex items-center justify-center font-bold text-espresso shadow-chunky-sm select-none">
+<span class="material-symbols-outlined text-lg leading-none font-black">chevron_left</span>
+</button>
+<button aria-label="Home" class="btn-squishy bg-accent-yellow hover:bg-accent-yellow-dark border-[2.5px] border-espresso rounded-lg w-8 h-8 flex items-center justify-center font-bold text-espresso shadow-chunky-sm select-none">
+<span class="material-symbols-outlined text-base leading-none" style="font-variation-settings: &quot;FILL&quot; 1;">home</span>
+</button>
+<button aria-label="Forward" class="btn-squishy bg-accent-yellow hover:bg-accent-yellow-dark border-[2.5px] border-espresso rounded-lg w-8 h-8 flex items-center justify-center font-bold text-espresso shadow-chunky-sm select-none">
+<span class="material-symbols-outlined text-lg leading-none font-black">chevron_right</span>
+</button>
+</div>
+</header>
+<!-- Sub-banner: Olive Marquee Strip -->
+<div class="border-b-[5px] border-espresso bg-[#f3ce60] text-espresso py-1.5 px-4 flex justify-around items-center text-xs sm:text-sm font-title font-bold tracking-wider uppercase drop-shadow-[1px_1px_0px_rgba(255,255,255,0.4)] select-none">
+<span class="flex items-center gap-1.5 font-bold"><span class="text-[#9b2125]">🍎</span> FRUITY LOVE CLUB</span>
+<span class="text-[#9b2125] font-black">★</span>
+<span class="hidden sm:inline">BASED IN DIGITAL ORCHARD</span>
+<span class="hidden sm:inline text-[#9b2125] font-black">★</span>
+<span class="flex items-center gap-1.5">I LOVE DESIGN ! <span class="text-[#9b2125]">🍎</span></span>
+</div>
+<!-- URL / Search Bar Ribbon -->
+<div class="pattern-pinstripe-yellow border-b-[5px] border-espresso p-2.5 sm:p-3 flex items-center gap-2 sm:gap-3">
+<!-- Fast Actions -->
+<button aria-label="Back history" class="btn-squishy bg-accent-yellow hover:bg-cream border-[2.5px] border-espresso rounded-lg w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center text-espresso shadow-chunky-sm select-none">
+<span class="material-symbols-outlined text-base sm:text-lg font-bold">arrow_back</span>
+</button>
+<button aria-label="Forward history" class="btn-squishy bg-accent-yellow hover:bg-cream border-[2.5px] border-espresso rounded-lg w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center text-espresso shadow-chunky-sm select-none">
+<span class="material-symbols-outlined text-base sm:text-lg font-bold">arrow_forward</span>
+</button>
+<button aria-label="Bookmark" class="btn-squishy bg-accent-yellow hover:bg-cream border-[2.5px] border-espresso rounded-lg w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center text-espresso shadow-chunky-sm select-none">
+<span class="material-symbols-outlined text-base sm:text-lg text-espresso" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+</button>
+<!-- Main Input Box -->
+<div class="flex-1 bg-cream-light border-[3px] border-espresso rounded-xl px-3 py-1.5 flex items-center justify-between shadow-chunky-sm">
+<span class="font-mono text-xs sm:text-sm text-espresso font-bold tracking-tight select-all">http://my.apple-portfolio.com</span>
+<button aria-label="Search" class="btn-squishy flex items-center justify-center text-espresso font-bold cursor-pointer"><span class="material-symbols-outlined text-lg">search</span></button>
+</div>
+</div>
+<!-- Retro Pill Navigation Tabs -->
+<nav class="sticky top-0 z-50 bg-cream-dark border-b-[5px] border-espresso px-3 py-2 sm:py-2.5 flex flex-wrap items-center justify-center gap-1.5 sm:gap-3 shadow-chunky-sm">
+<a class="btn-squishy bg-[#bd3a3a] hover:bg-[#9b2125] text-[#fffdf0] font-title font-bold text-xs sm:text-sm px-3 sm:px-4 py-1 rounded-xl border-[3.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none" href="#home"><span class="">🍎</span> home</a>
+<a class="btn-squishy bg-[#d6e3a8] hover:bg-[#c4d493] text-espresso font-title font-bold text-xs sm:text-sm px-3 sm:px-4 py-1 rounded-xl border-[3.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none" href="#skills">
+<span class="">☘</span> capabilities
+  </a>
+<a class="btn-squishy bg-[#e4e7c3] hover:bg-[#d5daba] text-espresso font-title font-bold text-xs sm:text-sm px-3 sm:px-4 py-1 rounded-xl border-[3.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none" href="#about-craft"><span class="">📖</span> about</a>
+<a class="btn-squishy bg-sage hover:bg-sage-dark text-cream font-title font-bold text-xs sm:text-sm px-3 sm:px-4 py-1 rounded-xl border-[3.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none" href="#portfolio">
+<span class="">★</span> portfolio
+  </a>
+<a class="btn-squishy bg-[#fcf5de] hover:bg-cream-dark text-espresso font-title font-bold text-xs sm:text-sm px-3 sm:px-4 py-1 rounded-xl border-[3.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none" href="#footer-contact">
+<span class="">✉️</span> socials
+  </a>
+</nav>
+<!-- Main Scrollable Content Area with Gingham Tablecloth Checkered Pattern -->
+<div class="p-4 sm:p-8 md:p-10 flex flex-col text-espresso bg-[#9b2125] gap-8 relative overflow-hidden" style="background-color: rgb(155, 33, 37); background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.08) 50%, transparent 50%), linear-gradient(rgba(255, 255, 255, 0.08) 50%, transparent 50%); background-size: 28px 28px;">
+<!-- Floating Whimsical Doodles Overlay Layer from SCREEN_7 (pointer-events-none, behind content cards) -->
+<div aria-hidden="true" class="absolute inset-0 pointer-events-none overflow-hidden select-none z-0">
+<div class="absolute top-[1%] left-[1.5%] animate-float-slow hidden sm:flex flex-col items-center">
+<div class="bg-[#fffdf0] border-[2.5px] border-[#3a1d13] rounded-2xl p-1.5 shadow-chunky-sm rotate-[-8deg] flex items-center justify-center">
+<span class="text-2xl lg:text-3xl">🍎</span>
+</div>
+<span class="font-mono text-[10px] text-[#3a1d13] font-bold mt-1 bg-[#d6e3a8] px-1.5 py-0.5 rounded border border-[#3a1d13]">sweet!</span>
+</div>
+<div class="absolute top-[2%] left-[50%] -translate-x-1/2 animate-twinkle-1 text-accent-yellow drop-shadow-[2px_2px_0px_#3a1d13] text-2xl lg:text-3xl font-black">✨</div>
+<div class="absolute top-[2.5%] right-[2%] animate-twinkle-2 text-accent-yellow drop-shadow-[2px_2px_0px_#3a1d13] text-2xl lg:text-3xl font-black">✨</div>
+<div class="absolute top-[5%] left-[2%] animate-twinkle-1 text-[#fffdf0] text-xl drop-shadow-[2px_2px_0px_#3a1d13] font-bold">✦</div>
+<div class="absolute top-[6.5%] left-[72%] animate-twinkle-3 text-accent-yellow drop-shadow-[2px_2px_0px_#3a1d13] text-xl font-bold">✧</div>
+<div class="absolute top-[8%] right-[1.5%] animate-float-medium hidden sm:flex flex-col items-center">
+<div class="bg-[#fffdf0] border-[2.5px] border-[#3a1d13] rounded-2xl p-1.5 shadow-chunky-sm rotate-[10deg] flex items-center justify-center">
+<span class="text-2xl lg:text-3xl">🍎</span>
+</div>
+<span class="font-mono text-[10px] text-[#3a1d13] font-bold mt-1 bg-[#f3ce60] px-1.5 py-0.5 rounded border border-[#3a1d13]">yummy!</span>
+</div>
+<div class="absolute top-[12%] left-[1.5%] animate-twinkle-3 text-accent-yellow drop-shadow-[2px_2px_0px_#3a1d13] text-2xl font-black">★</div>
+<div class="absolute top-[13%] left-[54%] animate-twinkle-2 text-[#fffdf0] text-2xl drop-shadow-[2px_2px_0px_#3a1d13] font-bold">✧</div>
+<div class="absolute top-[15%] right-[2%] animate-twinkle-1 text-[#fffdf0] text-xl drop-shadow-[2px_2px_0px_#3a1d13] font-bold">✧</div>
+<div class="absolute top-[18%] left-[1%] animate-float-medium hidden md:block opacity-90">
+<svg class="w-10 h-10 text-accent-yellow animate-spiral drop-shadow-[2px_2px_0px_#3a1d13]" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="3.5" viewBox="0 0 50 50">
+<path d="M25,25 m0,-3 a3,3 0 0,1 3,3 a6,6 0 0,1 -6,6 a9,9 0 0,1 -9,-9 a12,12 0 0,1 12,-12 a15,15 0 0,1 15,15 a18,18 0 0,1 -18,18"></path>
+</svg>
+</div>
+<div class="absolute top-[20.5%] left-[45%] animate-float-medium hidden sm:flex items-center gap-2">
+<div class="bg-[#fffdf0] border-[2px] border-[#3a1d13] rounded-xl px-2.5 py-1 shadow-chunky-sm rotate-[-4deg] flex items-center gap-1.5">
+<span class="text-base">🍎</span>
+<span class="font-mono text-[10px] text-[#3a1d13] font-bold">crisp bite</span>
+</div>
+<span class="animate-twinkle-1 text-accent-yellow drop-shadow-[2px_2px_0px_#3a1d13] text-lg font-bold">✦</span>
+</div>
+<div class="absolute top-[21%] right-[1.5%] animate-float-slow hidden sm:flex items-center gap-1">
+<div class="bg-[#d6e3a8] border-[2px] border-[#3a1d13] rounded-xl px-2 py-1 shadow-chunky-sm rotate-[8deg] text-base">☘</div>
+<span class="animate-twinkle-2 text-accent-yellow drop-shadow-[2px_2px_0px_#3a1d13] text-lg font-mono font-bold">‧₊˚</span>
+</div>
+<div class="absolute top-[28%] right-[2%] animate-twinkle-3 text-accent-yellow drop-shadow-[2px_2px_0px_#3a1d13] text-3xl font-black">✦</div>
+<div class="absolute top-[32%] left-[2%] animate-twinkle-2 text-[#fffdf0] drop-shadow-[2px_2px_0px_#3a1d13] text-xl font-black">★</div>
+<div class="absolute top-[34%] left-[38%] animate-float-slow hidden md:block opacity-90">
+<svg class="w-9 h-9 text-accent-yellow animate-spiral drop-shadow-[2px_2px_0px_#3a1d13]" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="3.5" viewBox="0 0 50 50">
+<path d="M25,25 m0,-3 a3,3 0 0,1 3,3 a6,6 0 0,1 -6,6 a9,9 0 0,1 -9,-9 a12,12 0 0,1 12,-12 a15,15 0 0,1 15,15 a18,18 0 0,1 -18,18"></path>
+</svg>
+</div>
+<div class="absolute top-[35%] right-[1%] animate-float-slow hidden md:block opacity-90">
+<svg class="w-10 h-10 text-[#d8e2b2] animate-spiral drop-shadow-[2px_2px_0px_#3a1d13]" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="3.5" style="animation-direction: reverse;" viewBox="0 0 50 50">
+<path d="M25,25 m0,-3 a3,3 0 0,1 3,3 a6,6 0 0,1 -6,6 a9,9 0 0,1 -9,-9 a12,12 0 0,1 12,-12 a15,15 0 0,1 15,15 a18,18 0 0,1 -18,18"></path>
+</svg>
+</div>
+<div class="absolute top-[40%] left-[1.5%] animate-float-medium hidden sm:flex flex-col items-center">
+<div class="bg-[#fffdf0] border-[2.5px] border-[#3a1d13] rounded-2xl p-1.5 shadow-chunky-sm rotate-[12deg] flex items-center justify-center">
+<span class="text-2xl">🍎</span>
+</div>
+<span class="font-mono text-[10px] text-espresso font-bold mt-1 bg-[#d6e3a8] px-1.5 py-0.5 rounded border border-[#3a1d13]">juicy!</span>
+</div>
+<div class="absolute top-[42%] left-[55%] animate-twinkle-2 text-[#fffdf0] drop-shadow-[2px_2px_0px_#3a1d13] text-xl font-bold">✧</div>
+<div class="absolute top-[44%] right-[1.5%] animate-twinkle-1 text-accent-yellow drop-shadow-[2px_2px_0px_#3a1d13] text-2xl font-black">✨</div>
+<div class="absolute top-[48%] left-[2%] animate-twinkle-2 text-[#fffdf0] text-xl drop-shadow-[2px_2px_0px_#3a1d13] font-bold">✧</div>
+<div class="absolute top-[49%] left-[48%] -translate-x-1/2 animate-float-slow hidden sm:flex items-center gap-2">
+<div class="bg-[#d6e3a8] border-[2px] border-[#3a1d13] rounded-xl px-2 py-1 shadow-chunky-sm rotate-[4deg] flex items-center gap-1">
+<span class="text-sm">☘</span>
+<span class="font-mono text-[10px] text-espresso font-bold">digital orchard</span>
+</div>
+<span class="animate-twinkle-3 text-accent-yellow drop-shadow-[2px_2px_0px_#3a1d13] text-xl font-black">★</span>
+</div>
+<div class="absolute top-[51%] right-[1.5%] animate-float-slow hidden sm:flex flex-col items-center">
+<div class="bg-accent-yellow border-[2px] border-[#3a1d13] rounded-2xl p-1.5 shadow-chunky-sm rotate-[-6deg] flex items-center justify-center">
+<span class="text-xl text-espresso font-black">★</span>
+</div>
+<span class="font-mono text-[10px] text-espresso font-bold mt-1 bg-[#fffdf0] px-1.5 py-0.5 rounded border border-[#3a1d13]">໑ ꩜ ໑</span>
+</div>
+<div class="absolute top-[55%] left-[1%] animate-float-slow hidden md:block opacity-90">
+<svg class="w-10 h-10 text-accent-yellow animate-spiral drop-shadow-[2px_2px_0px_#3a1d13]" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="3.5" viewBox="0 0 50 50">
+<path d="M25,25 m0,-3 a3,3 0 0,1 3,3 a6,6 0 0,1 -6,6 a9,9 0 0,1 -9,-9 a12,12 0 0,1 12,-12 a15,15 0 0,1 15,15 a18,18 0 0,1 -18,18"></path>
+</svg>
+</div>
+<div class="absolute top-[57%] left-[68%] animate-twinkle-1 text-[#fffdf0] text-xl drop-shadow-[2px_2px_0px_#3a1d13] font-bold">✦</div>
+<div class="absolute top-[59%] right-[2%] animate-twinkle-3 text-accent-yellow drop-shadow-[2px_2px_0px_#3a1d13] text-3xl font-black">✦</div>
+<div class="absolute top-[62%] left-[32%] animate-float-medium hidden md:flex items-center gap-1.5">
+<div class="bg-accent-yellow border-[2px] border-[#3a1d13] rounded-full w-8 h-8 flex items-center justify-center shadow-chunky-sm rotate-[-8deg] text-base">🍎</div>
+<span class="font-mono text-[9px] text-[#3a1d13] font-bold bg-[#fffdf0] px-1.5 py-0.5 rounded border border-[#3a1d13]">juicy drop</span>
+</div>
+<div class="absolute top-[63%] left-[1.5%] animate-float-slow hidden sm:flex items-center gap-1">
+<div class="bg-[#d6e3a8] border-[2px] border-[#3a1d13] rounded-xl px-2 py-1 shadow-chunky-sm rotate-[-10deg] text-base">☘</div>
+<span class="animate-twinkle-1 text-[#fffdf0] drop-shadow-[2px_2px_0px_#3a1d13] text-base font-mono font-bold">₊˚⊹</span>
+</div>
+<div class="absolute top-[67%] right-[1.5%] animate-float-medium hidden sm:flex flex-col items-center">
+<div class="bg-[#fffdf0] border-[2.5px] border-[#3a1d13] rounded-2xl p-1.5 shadow-chunky-sm rotate-[8deg] flex items-center justify-center">
+<span class="text-2xl">🍎</span>
+</div>
+<span class="font-mono text-[10px] text-espresso font-bold mt-1 bg-[#f3ce60] px-1.5 py-0.5 rounded border border-[#3a1d13]">fresh!</span>
+</div>
+<div class="absolute top-[70%] left-[50%] -translate-x-1/2 animate-twinkle-2 text-accent-yellow drop-shadow-[2px_2px_0px_#3a1d13] text-3xl font-black">✨</div>
+<div class="absolute top-[71%] left-[2%] animate-twinkle-3 text-accent-yellow drop-shadow-[2px_2px_0px_#3a1d13] text-2xl font-black">★</div>
+<div class="absolute top-[74%] right-[1%] animate-float-slow hidden md:block opacity-90">
+<svg class="w-10 h-10 text-[#d8e2b2] animate-spiral drop-shadow-[2px_2px_0px_#3a1d13]" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="3.5" style="animation-direction: reverse;" viewBox="0 0 50 50">
+<path d="M25,25 m0,-3 a3,3 0 0,1 3,3 a6,6 0 0,1 -6,6 a9,9 0 0,1 -9,-9 a12,12 0 0,1 12,-12 a15,15 0 0,1 15,15 a18,18 0 0,1 -18,18"></path>
+</svg>
+</div>
+<div class="absolute top-[76%] left-[64%] animate-float-slow hidden sm:flex items-center gap-1">
+<div class="bg-[#fffdf0] border-[2px] border-[#3a1d13] rounded-xl px-2 py-0.5 shadow-chunky-sm rotate-[6deg] text-xs font-mono font-bold text-[#3a1d13]">🍎 ripe &amp; sweet</div>
+</div>
+<div class="absolute top-[78%] left-[1.5%] animate-float-medium hidden md:flex flex-col items-center">
+<div class="bg-[#d6e3a8] text-[#3a1d13] border-[2px] border-[#3a1d13] rounded-full w-10 h-10 flex items-center justify-center text-xl shadow-chunky-sm rotate-[-10deg]">🍎</div>
+<span class="text-xs text-accent-yellow font-black animate-twinkle-3 mt-1 drop-shadow-[1px_1px_0px_#3a1d13]">★ ★ ★</span>
+</div>
+<div class="absolute top-[82%] right-[2%] animate-twinkle-2 text-[#fffdf0] drop-shadow-[2px_2px_0px_#3a1d13] text-2xl font-bold">✧</div>
+<div class="absolute top-[84%] left-[42%] animate-twinkle-3 text-accent-yellow drop-shadow-[2px_2px_0px_#3a1d13] text-2xl font-black">★</div>
+<div class="absolute top-[86%] left-[2%] animate-twinkle-1 text-accent-yellow drop-shadow-[2px_2px_0px_#3a1d13] text-3xl font-black">✨</div>
+<div class="absolute top-[89%] right-[1.5%] animate-float-medium hidden md:flex items-center gap-1.5">
+<span class="animate-twinkle-2 text-accent-yellow drop-shadow-[2px_2px_0px_#3a1d13] text-lg font-bold">✧</span>
+<div class="bg-[#fffdf0] border-[2px] border-[#3a1d13] rounded-full w-9 h-9 flex items-center justify-center shadow-chunky-sm rotate-[8deg] text-lg">🍎</div>
+</div>
+<div class="absolute top-[91%] left-[52%] animate-float-medium hidden sm:flex items-center gap-1">
+<div class="bg-accent-yellow border-[2px] border-[#3a1d13] rounded-full w-8 h-8 flex items-center justify-center shadow-chunky-sm rotate-[6deg] text-sm font-black text-[#3a1d13]">★</div>
+<span class="text-[#fffdf0] font-mono text-[10px] font-bold bg-[#3a1d13] px-1.5 py-0.5 rounded">thanks for visiting!</span>
+</div>
+<div class="absolute top-[93%] left-[2.5%] animate-float-slow hidden sm:flex flex-col items-center">
+<div class="bg-accent-yellow border-[2px] border-[#3a1d13] rounded-2xl p-1.5 shadow-chunky-sm rotate-[-8deg] flex items-center justify-center">
+<span class="text-xl text-espresso font-black">★</span>
+</div>
+<span class="font-mono text-[9px] text-espresso font-bold mt-0.5 bg-[#fffdf0] px-1 py-0.2 rounded border border-[#3a1d13]">carrd</span>
+</div>
+<div class="absolute top-[95%] right-[2%] animate-twinkle-3 text-accent-yellow drop-shadow-[2px_2px_0px_#3a1d13] text-2xl font-black">✦</div>
+<div class="absolute top-[97%] left-[3%] animate-twinkle-1 text-[#fffdf0] text-xl drop-shadow-[2px_2px_0px_#3a1d13] font-bold">✧</div>
+</div>
+<!-- HERO / INTRODUCTION SECTION -->
+<section class="bg-[#fffdf0] border-[3.5px] border-espresso rounded-2xl p-5 sm:p-8 shadow-chunky relative overflow-hidden z-10" id="home" style="background-image: radial-gradient(rgba(139, 154, 70, 0.12) 1.5px, transparent 1.5px), radial-gradient(rgba(189, 58, 58, 0.08) 1.5px, transparent 1.5px); background-size: 20px 20px, 40px 40px; background-position: 0px 0px, 10px 10px;"><div class="absolute -top-3 -right-3 text-2xl select-none opacity-20 pointer-events-none text-espresso font-mono">꩜ ໑ ꩜</div><div class="absolute -bottom-3 left-6 text-xl select-none opacity-20 pointer-events-none text-[#bd3a3a] font-mono">໑ ꩜ ໑</div><div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center relative z-10"><div class="md:col-span-7 flex flex-col gap-4 text-left"><div class="inline-flex items-center gap-2 self-start bg-[#9b2125] text-[#fffdf0] font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[2px] border-espresso shadow-chunky-sm select-none" style="background-color: rgb(155, 33, 37); background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.08) 50%, transparent 50%), linear-gradient(rgba(255, 255, 255, 0.08) 50%, transparent 50%); background-size: 28px 28px;"><span class="text-xs">🍎</span> DIGITAL APPLE ORCHARD ★ 2024 <span class="text-[11px] opacity-75 font-mono">꩜</span></div><h2 class="font-title flex flex-col gap-1.5 leading-tight"><span class="font-mono font-bold text-xs sm:text-sm text-sage-dark uppercase tracking-wider flex items-center gap-1.5"><span class="">★</span> Welcome to My Orchard! <span class="">★</span></span><span class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-espresso tracking-tight drop-shadow-[2px_2px_0px_rgba(243,206,96,0.5)] flex items-center flex-wrap gap-2 leading-none"><span class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">🍎</span> Hello, i'm <span class="underline decoration-[#bd3a3a] decoration-[3px] sm:decoration-[4px] underline-offset-4 decoration-wavy">Risma</span>! <span class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">🍎</span></span></h2><div class="bg-[#fcf5de] border-[2.5px] border-espresso rounded-xl p-3.5 shadow-chunky-sm flex flex-col gap-2 relative mt-1"><div class="flex items-center justify-between border-b border-dashed border-espresso/30 pb-1.5"><span class="font-mono text-[11px] font-bold text-sage-dark flex items-center gap-1"><span class="">🌱</span> student_profile.txt</span><span class="btn-squishy bg-accent-yellow text-espresso font-title text-[10px] font-bold px-2 py-0.5 rounded border border-espresso cursor-pointer select-none">COMMISSIONS: OPEN ★</span></div><p class="font-body text-xs sm:text-[13px] leading-relaxed text-[#422115]">I’m Risma Aprillia, a Visual Communication Design student at SMKN 10 Surabaya who enjoys exploring creative ideas through design.</p><p class="font-body text-xs sm:text-[13px] leading-relaxed text-[#422115]">I love experimenting with different styles and continuously learning new things to help my work grow while maintaining a unique character of its own.</p></div><div class="flex flex-wrap gap-3.5 pt-3"><a class="btn-squishy bg-[#9b2125] hover:bg-[#83181c] text-[#fffdf0] font-title font-bold text-sm px-5 py-2.5 rounded-xl border-[2.5px] border-espresso shadow-chunky flex items-center gap-1.5 select-none" href="#portfolio"><span class="">🍎</span> Explore Work</a><a class="btn-squishy bg-[#d6e3a8] hover:bg-[#c4d493] text-espresso font-title font-bold text-sm px-5 py-2.5 rounded-xl border-[2.5px] border-espresso shadow-chunky flex items-center gap-1.5 select-none" href="#skills"><span class="">☘</span> View Skills</a></div></div><div class="md:col-span-5 flex flex-col items-center justify-center py-2"><div class="relative"><div class="w-56 h-56 sm:w-64 sm:h-64 border-[3.5px] border-espresso rounded-2xl overflow-hidden shadow-chunky bg-[#f5ecc2] p-2" style="background-image: radial-gradient(#d8e2b2 2px, transparent 2px); background-size: 12px 12px;"><img id="portrait" class="w-full h-full object-cover rounded-xl cursor-pointer" alt="Portrait illustration of Risma, resident orchard botanist and designer" loading="lazy" decoding="async" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTXf5iZMjkJNthLz0Nhy6PMn11Bi7kbE_J2HW0E8e9XmOdli94nNXkBhqNt2LuhhRZW6tM2phswOIMDn8f1IVZ59NsrCUFnvtz6m5a02hwM4EV1wca_v3ybSery1EcY98t47D6D_jzlDIfgpfTUdeNARyOhvbjJGsczfAgBeSxq_UPUU-agqbvkfJOCGamVIWMcs8BU1378JLfePy-pe8M7EPUJh4LwXaOEvGjQ3rt-e8nwqxKUh54Bg7kBeKXVfnfxyA" style="object-position: center 22%; transform: scale(1.65); transform-origin: 50% 24%;"></div><button aria-label="Apple badge" class="sticker-squishy absolute -bottom-3 -left-4 bg-[#9b2125] text-cream border-[2.5px] border-espresso rounded-full w-12 h-12 flex items-center justify-center shadow-chunky text-xl select-none">🍎</button><button aria-label="Star badge" class="sticker-squishy absolute -top-4 -right-4 bg-accent-yellow text-espresso border-[2.5px] border-espresso rounded-full w-12 h-12 flex items-center justify-center font-black text-lg shadow-chunky select-none">★</button><button aria-label="Sprout badge" class="sticker-squishy absolute top-1/2 -right-5 bg-[#d6e3a8] text-espresso border-[2.5px] border-espresso rounded-lg px-2.5 py-1 text-base shadow-chunky flex items-center gap-1 select-none"><span class="">☘</span><span class="text-[11px] font-mono">꩜</span></button></div><p class="mt-4 font-title text-xs font-bold text-espresso tracking-wide uppercase flex items-center gap-1"><span class="text-sage-dark">໑</span> ( Resident Orchard Botanist &amp; Designer ) <span class="text-[#bd3a3a]">꩜</span></p></div></div></section>
+<!-- Divider 2: Big Chunky Separator Sticker Badges (100% fresh pick + growth gauge) from SCREEN_7 -->
+<div aria-hidden="true" class="flex items-center justify-center gap-4 sm:gap-6 py-6 sm:py-9 select-none relative z-10">
+<div class="flex flex-row items-center justify-center gap-3 sm:gap-6 flex-wrap md:flex-nowrap"><span class="text-accent-yellow animate-twinkle-1 drop-shadow-[2px_2px_0px_#3a1d13] text-2xl sm:text-4xl font-black">✦</span><div class="btn-squishy bg-[#fffdf0] border-[5px] sm:border-[6px] border-espresso rounded-full px-5 sm:px-10 py-3 sm:py-4 shadow-[8px_8px_0px_#3a1d13] flex items-center gap-2.5 sm:gap-3 rotate-[-3deg] whitespace-nowrap"><span class="text-2xl sm:text-4xl">🍎</span><span class="font-title text-lg sm:text-2xl font-black text-espresso tracking-wide">100% fresh pick</span></div><span class="text-[#fffdf0] animate-twinkle-2 drop-shadow-[2px_2px_0px_#3a1d13] text-2xl sm:text-4xl font-bold">✧</span><div class="btn-squishy bg-accent-yellow border-[5px] sm:border-[6px] border-espresso rounded-full px-5 sm:px-10 py-3 sm:py-4 shadow-[8px_8px_0px_#3a1d13] flex items-center gap-2.5 sm:gap-3 rotate-[3deg] whitespace-nowrap"><span class="text-2xl sm:text-4xl font-black">★</span><span class="font-title text-lg sm:text-2xl font-black text-espresso tracking-wide">growth gauge</span><span class="text-2xl sm:text-4xl">☘</span></div><span class="text-accent-yellow animate-twinkle-3 drop-shadow-[2px_2px_0px_#3a1d13] text-2xl sm:text-4xl font-black">✨</span></div>
+</div>
+<!-- 1. ABOUT ME / CRAFT SECTION -->
+<section class="bg-[#fffdf0] border-[3.5px] border-espresso rounded-2xl p-5 sm:p-8 shadow-chunky relative z-10" id="about-craft"><div class="flex items-center justify-between mb-5 border-b-[2px] border-dashed border-espresso/40 pb-3 relative"><div class="flex items-center gap-2 flex-wrap"><span class="btn-squishy bg-accent-yellow text-espresso font-title font-bold text-xs px-2.5 py-1 rounded border-[2px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none"><span class="text-[10px]">🍎</span> About Risma</span><h2 class="font-title font-extrabold text-espresso text-xl sm:text-2xl flex items-center gap-1.5"><span class="">📖</span> About Risma's Craft &amp; Vision</h2><span class="text-[#9b2125] font-mono text-sm hidden sm:inline select-none">‧₊˚ ꩜ ໑</span></div><span class="font-mono text-xs text-sage-dark font-bold hidden sm:inline bg-[#fcf5de] px-2.5 py-0.5 rounded border border-espresso/30 select-none">craft_manifesto.v3</span></div><div class="grid grid-cols-1 gap-5 md:grid-cols-2"><div class="bg-[#fbf6e2] text-espresso border-[3px] border-espresso rounded-xl p-4 shadow-chunky flex flex-col justify-between gap-3 relative overflow-hidden"><div class="flex flex-col gap-3"><div class="bg-[#9b2125] text-[#fffdf0] px-3 py-1.5 rounded-lg border-[2px] border-espresso flex items-center justify-between font-mono text-xs font-bold shadow-chunky-sm select-none" style="background-color: rgb(155, 33, 37); background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.08) 50%, transparent 50%), linear-gradient(rgba(255, 255, 255, 0.08) 50%, transparent 50%); background-size: 28px 28px;"><span class="flex items-center gap-1.5"><span class="">🖼️</span> Artwork Carousel</span><span class="text-accent-yellow font-bold">01 // CAROUSEL</span></div><div id="art-carousel" role="group" aria-roledescription="carousel" aria-label="Artwork preview" class="border-[2.5px] border-espresso rounded-xl bg-[#fffdf0] p-3 shadow-chunky-sm flex flex-col gap-2 relative"><div class="relative w-full h-44 border-[2px] border-dashed border-espresso/40 rounded-lg bg-[#f5ecc2] flex flex-col items-center justify-center text-center p-3 overflow-hidden select-none" style="background-image: radial-gradient(#d8e2b2 1.5px, transparent 1.5px); background-size: 10px 10px;"><img id="art-slide-img" class="w-full h-full object-contain rounded-lg" alt="Artwork preview" src="" loading="lazy" decoding="async"><span id="art-slide-tag" class="absolute bottom-1 left-1/2 -translate-x-1/2 font-mono text-[10px] font-bold text-espresso bg-[#fef0b8]/90 border-[1.5px] border-espresso rounded px-2 py-0.5 select-none">// loading //</span></div><div class="flex items-center justify-between pt-1"><button aria-label="Previous slide" class="btn-squishy bg-accent-yellow hover:bg-accent-yellow-dark border-[2px] border-espresso rounded-lg w-7 h-7 flex items-center justify-center font-bold text-espresso shadow-chunky-sm select-none"><span class="material-symbols-outlined text-sm font-black">chevron_left</span></button><div id="carousel-dots" class="flex items-center gap-1.5"><span id="carousel-count" class="font-mono text-[10px] font-bold text-sage-dark ml-1 select-none">1 / 6</span></div><button aria-label="Next slide" class="btn-squishy bg-accent-yellow hover:bg-accent-yellow-dark border-[2px] border-espresso rounded-lg w-7 h-7 flex items-center justify-center font-bold text-espresso shadow-chunky-sm select-none"><span class="material-symbols-outlined text-sm font-black">chevron_right</span></button></div></div></div><div class="flex items-center justify-between border-t border-dashed border-espresso/30 pt-2 text-[11px] font-mono text-sage-dark font-bold select-none"><span class="">☘ Interactive Reel</span><span class="">✦ ✦ ✦</span></div></div><div class="bg-[#fbf6e2] text-espresso border-[3px] border-espresso rounded-xl p-4 shadow-chunky flex flex-col justify-between gap-3 relative overflow-hidden"><div class="flex flex-col gap-3"><div class="bg-[#69792c] text-cream px-3 py-1.5 rounded-lg border-[2px] border-espresso flex items-center justify-between font-mono text-xs font-bold shadow-chunky-sm select-none"><span class="flex items-center gap-1.5"><span class="">📖</span> Craft Philosophy</span><span class="text-accent-yellow font-bold">02 // PHILOSOPHY</span></div><div class="bg-white/75 border-[2px] border-espresso/30 rounded-xl p-3 shadow-chunky-sm flex flex-col gap-2.5"><div class="space-y-1"><div class="font-title font-bold text-xs text-[#9b2125] flex items-center gap-1"><span class="">🍎</span> DESIGN SKILL:</div><p class="font-body text-xs leading-relaxed text-[#422115]">I enjoy creating designs that adapt to different concepts and visual identities. My skills include logo design, branding, illustration, layout, and visual composition. I like experimenting with typography, shapes, colors, and imagery to create designs that are both visually appealing and suited to their intended purpose.</p></div><div class="border-t border-dashed border-espresso/25 pt-2 space-y-1"><div class="font-title font-bold text-xs text-sage-dark flex items-center gap-1"><span class="">🎨</span> ART STYLE:</div><p class="font-body text-xs leading-relaxed text-[#422115]">My personal art style focuses on expressive, painterly illustrations with textured brushwork, bold colors, and stylized characters. I enjoy using color and lighting to create atmosphere and emotion rather than focusing purely on realistic rendering. While I like experimenting with different techniques and visual approaches, my work often maintains a soft, organic quality with expressive features and strong color choices. My style continues to develop as I explore new ways of combining color, texture, and character design.</p></div></div></div><div class="flex items-center justify-between border-t border-dashed border-espresso/30 pt-2 text-[11px] font-mono text-sage-dark font-bold select-none"><span class="">☘ Expressive &amp; Painterly</span><span class="">✦ ✦ ✦</span></div></div></div></section>
+<!-- Divider 2.5: Between About and Skills -->
+<div aria-hidden="true" class="flex items-center justify-center gap-4 py-4 sm:py-6 select-none relative z-10">
+<div class="flex-1 border-t-[3.5px] border-dashed border-[#fcf5de]/80"></div>
+<div class="btn-squishy bg-[#d6e3a8] border-[3px] border-[#3a1d13] rounded-full px-5 sm:px-6 py-2 text-sm sm:text-base font-title font-bold text-espresso shadow-chunky flex items-center gap-2.5 select-none">
+<span class="text-lg">☘</span>
+<span class="font-mono text-xs sm:text-sm text-sage-dark">‧₊˚ ໑ ꩜ ໑ ˚₊‧</span>
+<span class="text-lg text-[#9b2125]">🍎</span>
+</div>
+<div class="flex-1 border-t-[3.5px] border-dashed border-[#fcf5de]/80"></div>
+</div>
+<!-- 2. CAPABILITIES / SKILLS SECTION -->
+<section class="bg-[#fffdf0] border-[3.5px] border-espresso rounded-2xl p-5 sm:p-8 shadow-chunky relative z-10" id="skills">
+<div class="flex items-center justify-between mb-5 border-b-[2px] border-dashed border-espresso/40 pb-3 relative"><div class="flex items-center gap-2 flex-wrap"><span class="btn-squishy bg-accent-yellow text-espresso font-title font-bold text-xs px-2.5 py-1 rounded border-[2px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none"><span class="text-[10px]">꩜</span> Skills</span><h2 class="font-title font-extrabold text-espresso text-xl sm:text-2xl flex items-center gap-1.5"><span class="text-sage-dark">☘</span> Skill Meter &amp; Apps I Can Do</h2><span class="text-sage-dark font-mono text-sm hidden sm:inline select-none">‧₊˚ ໑ ꩜</span></div><span class="font-mono text-xs text-sage-dark font-bold hidden sm:inline bg-[#fcf5de] px-2 py-0.5 rounded border border-espresso/30 select-none">skill_gauge.sys</span></div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6"><div class="bg-[#fbf6e2] text-espresso border-[3px] border-espresso rounded-xl p-4 sm:p-5 shadow-chunky flex flex-col justify-between gap-5"><div class="flex flex-col gap-3.5"><div class="bg-[#9b2125] text-[#fffdf0] px-3.5 py-1.5 rounded-lg border-[2px] border-espresso flex items-center justify-between font-mono text-xs font-bold select-none" style="background-color: rgb(155, 33, 37); background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.08) 50%, transparent 50%), linear-gradient(rgba(255, 255, 255, 0.08) 50%, transparent 50%); background-size: 28px 28px;"><span class="flex items-center gap-1.5"><span class="">🎨</span> Visual &amp; Craft</span><span class="text-accent-yellow font-bold">01 // ART</span></div><ul class="font-body text-xs sm:text-sm text-[#422115] space-y-3 pt-1"><li class="flex items-center gap-2.5 p-3 rounded-xl bg-white/70 border-[1.5px] border-espresso/30 shadow-chunky-sm select-none"><span class="text-[#9b2125] font-bold text-base">🍎</span><span class="font-bold">Logos</span></li><li class="flex items-center gap-2.5 p-3 rounded-xl bg-white/70 border-[1.5px] border-espresso/30 shadow-chunky-sm select-none"><span class="text-sage-dark font-bold text-base">★</span><span class="font-bold">Brand Identities</span></li><li class="flex items-center gap-2.5 p-3 rounded-xl bg-white/70 border-[1.5px] border-espresso/30 shadow-chunky-sm select-none"><span class="text-accent-yellow font-bold text-base">☘</span><span class="font-bold">Character Illustration</span></li></ul></div><div class="flex items-center justify-between border-t border-dashed border-espresso/30 pt-3 text-[11px] font-mono text-sage-dark font-bold select-none"><span class="">Focus: Digital &amp; Identity</span><span class="">✦ ✦ ✦</span></div></div><div class="bg-[#fbf6e2] text-espresso border-[3px] border-espresso rounded-xl p-4 sm:p-5 shadow-chunky flex flex-col justify-between gap-5"><div class="flex flex-col gap-3.5"><div class="bg-[#69792c] text-cream px-3.5 py-1.5 rounded-lg border-[2px] border-espresso flex items-center justify-between font-mono text-xs font-bold select-none"><span class="flex items-center gap-1.5"><span class="">📱</span> Apps I Can Do</span><span class="text-accent-yellow font-bold">02 // METER</span></div><div class="space-y-3.5 pt-1"><div class="btn-squishy p-3 rounded-xl bg-white/70 border-[1.5px] border-espresso/30 shadow-chunky-sm flex flex-col gap-1.5 select-none"><div class="flex items-center justify-between font-title font-bold text-xs sm:text-sm text-espresso"><span class="flex items-center gap-1.5"><span class="">🖌️</span> ibisPaint X</span><span class="font-mono font-bold text-xs bg-[#d6e3a8] border border-espresso px-2 py-0.5 rounded text-espresso">97%</span></div><div class="w-full h-3.5 bg-cream-dark border-[2px] border-espresso rounded-full overflow-hidden p-0.5"><div class="h-full bg-[#9b2125] rounded-full border border-espresso/40 shadow-inner" style="width: 97%;"></div></div></div><div class="btn-squishy p-3 rounded-xl bg-white/70 border-[1.5px] border-espresso/30 shadow-chunky-sm flex flex-col gap-1.5 select-none"><div class="flex items-center justify-between font-title font-bold text-xs sm:text-sm text-espresso"><span class="flex items-center gap-1.5"><span class="">📐</span> Canva</span><span class="font-mono font-bold text-xs bg-accent-yellow border border-espresso px-2 py-0.5 rounded text-espresso">90%</span></div><div class="w-full h-3.5 bg-cream-dark border-[2px] border-espresso rounded-full overflow-hidden p-0.5"><div class="h-full bg-[#69792c] rounded-full border border-espresso/40 shadow-inner" style="width: 90%;"></div></div></div><div class="btn-squishy p-3 rounded-xl bg-white/70 border-[1.5px] border-espresso/30 shadow-chunky-sm flex flex-col gap-1.5 select-none"><div class="flex items-center justify-between font-title font-bold text-xs sm:text-sm text-espresso"><span class="flex items-center gap-1.5"><span class="">✨</span> Adobe Illustrator</span><span class="font-mono font-bold text-xs bg-[#fbe2c5] border border-espresso px-2 py-0.5 rounded text-espresso">70%</span></div><div class="w-full h-3.5 bg-cream-dark border-[2px] border-espresso rounded-full overflow-hidden p-0.5"><div class="h-full bg-[#bd3a3a] rounded-full border border-espresso/40 shadow-inner" style="width: 70%;"></div></div></div><div class="btn-squishy p-3 rounded-xl bg-white/70 border-[1.5px] border-espresso/30 shadow-chunky-sm flex flex-col gap-1.5 select-none"><div class="flex items-center justify-between font-title font-bold text-xs sm:text-sm text-espresso"><span class="flex items-center gap-1.5"><span class="">🎨</span> Corel</span><span class="font-mono font-bold text-xs bg-[#fbe2c5] border border-espresso px-2 py-0.5 rounded text-espresso">70%</span></div><div class="w-full h-3.5 bg-cream-dark border-[2px] border-espresso rounded-full overflow-hidden p-0.5"><div class="h-full bg-[#69792c] rounded-full border border-espresso/40 shadow-inner" style="width: 70%;"></div></div></div><div class="btn-squishy p-3 rounded-xl bg-white/70 border-[1.5px] border-espresso/30 shadow-chunky-sm flex flex-col gap-1.5 select-none"><div class="flex items-center justify-between font-title font-bold text-xs sm:text-sm text-espresso"><span class="flex items-center gap-1.5"><span class="">🖌️</span> Clip Studio Paint</span><span class="font-mono font-bold text-xs bg-[#d8e2b2] border border-espresso px-2 py-0.5 rounded text-espresso">80%</span></div><div class="w-full h-3.5 bg-cream-dark border-[2px] border-espresso rounded-full overflow-hidden p-0.5"><div class="h-full bg-[#9b2125] rounded-full border border-espresso/40 shadow-inner" style="width: 80%;"></div></div></div></div></div><div class="flex items-center justify-between border-t border-dashed border-espresso/30 pt-3 text-[11px] font-mono text-sage-dark font-bold select-none"><span class="">Proficiency Gauge</span><span class="">100% Max</span></div></div></div>
+</section>
+<!-- Divider 3: Big Chunky Separator Badges (freshly harvested ★ & gallery archives) from SCREEN_7 -->
+<div aria-hidden="true" class="flex items-center justify-center gap-4 sm:gap-6 py-6 sm:py-9 select-none relative z-10">
+<div class="flex flex-row items-center justify-center gap-3 sm:gap-6 flex-wrap md:flex-nowrap"><span class="text-accent-yellow animate-twinkle-1 drop-shadow-[2px_2px_0px_#3a1d13] text-2xl sm:text-4xl font-black">✦</span><div class="btn-squishy bg-[#fffdf0] border-[5px] sm:border-[6px] border-espresso rounded-full px-5 sm:px-10 py-3 sm:py-4 shadow-[8px_8px_0px_#3a1d13] flex items-center gap-2.5 sm:gap-3 rotate-[-3deg] whitespace-nowrap"><span class="text-2xl sm:text-4xl">🍎</span><span class="font-title text-lg sm:text-2xl font-black text-espresso tracking-wide">100% fresh pick</span></div><span class="text-[#fffdf0] animate-twinkle-2 drop-shadow-[2px_2px_0px_#3a1d13] text-2xl sm:text-4xl font-bold">✧</span><div class="btn-squishy bg-accent-yellow border-[5px] sm:border-[6px] border-espresso rounded-full px-5 sm:px-10 py-3 sm:py-4 shadow-[8px_8px_0px_#3a1d13] flex items-center gap-2.5 sm:gap-3 rotate-[3deg] whitespace-nowrap"><span class="text-2xl sm:text-4xl font-black">★</span><span class="font-title text-lg sm:text-2xl font-black text-espresso tracking-wide">growth gauge</span><span class="text-2xl sm:text-4xl">☘</span></div><span class="text-accent-yellow animate-twinkle-3 drop-shadow-[2px_2px_0px_#3a1d13] text-2xl sm:text-4xl font-black">✨</span></div>
+</div>
+<!-- 3. SELECTED PROJECTS SECTION -->
+<section class="flex flex-col gap-5 relative z-10" id="portfolio">
+<div class="bg-cream-light border-[3.5px] border-espresso rounded-2xl p-5 sm:p-6 shadow-chunky text-espresso" style="background-image: radial-gradient(rgba(139, 154, 70, 0.12) 1.5px, transparent 1.5px); background-size: 16px 16px;">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4">
+<div>
+<div class="flex items-center gap-2">
+<span class="bg-accent-yellow text-espresso font-title font-bold text-xs px-2.5 py-1 rounded border-[2px] border-espresso shadow-chunky-sm select-none">Archive</span>
+<h2 class="font-title font-extrabold text-xl sm:text-2xl text-sage-dark flex items-center gap-1.5">
+<span class="">🍎</span> Selected Projects &amp; Delights
+</h2>
+</div>
+<p class="font-body text-xs text-[#522b1b] mt-1">Freshly harvested works across digital design, visual identity, and playful art.</p>
+</div>
+<span id="project-count" class="font-mono text-xs font-bold bg-[#fcf5de] border-[2px] border-espresso px-3 py-1 rounded-lg self-start sm:self-auto shadow-chunky-sm select-none">
+   6 items loaded
+ </span>
+</div>
+<!-- Interactive Filter Pills / Tabs -->
+<div id="project-filters" role="group" aria-label="Filter projects by category" class="flex flex-wrap gap-2 pt-2 border-t-[2px] border-dashed border-espresso/40">
+<button class="btn-squishy bg-[#9b2125] hover:bg-[#83181c] text-[#fffdf0] font-title text-xs font-bold px-3.5 py-1.5 rounded-full border-[2px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none"><span class="">★</span> All Projects</button>
+<button class="btn-squishy bg-[#fcf5de] hover:bg-accent-yellow text-espresso font-title text-xs font-bold px-3.5 py-1.5 rounded-full border-[2px] border-espresso shadow-chunky-sm select-none">
+  Character design
+</button>
+<button class="btn-squishy bg-[#fcf5de] hover:bg-accent-yellow text-espresso font-title text-xs font-bold px-3.5 py-1.5 rounded-full border-[2px] border-espresso shadow-chunky-sm select-none">
+  Branding
+</button>
+<button class="btn-squishy bg-[#fcf5de] hover:bg-accent-yellow text-espresso font-title text-xs font-bold px-3.5 py-1.5 rounded-full border-[2px] border-espresso shadow-chunky-sm select-none">
+  3D
+</button>
+<button class="btn-squishy bg-[#fcf5de] hover:bg-accent-yellow text-espresso font-title text-xs font-bold px-3.5 py-1.5 rounded-full border-[2px] border-espresso shadow-chunky-sm select-none">
+  personal illustrations
+</button>
+</div>
+</div>
+<!-- 6 Project Cards Grid -->
+<div id="project-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 text-espresso">
+<!-- Card 2b: GSM Fuzz (click to reveal all pages) -->
+<article data-gallery="GSM%20Fuzz/MODUL%201_pages-to-jpg-0001.jpg,GSM%20Fuzz/MODUL%201_pages-to-jpg-0002.jpg,GSM%20Fuzz/MODUL%201_pages-to-jpg-0003.jpg,GSM%20Fuzz/MODUL%201_pages-to-jpg-0004.jpg,GSM%20Fuzz/MODUL%201_pages-to-jpg-0005.jpg,GSM%20Fuzz/MODUL%201_pages-to-jpg-0006.jpg" class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#37204f] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">🎸</span> gsm_fuzz_modul.zip</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★★★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#e8deea]"><img class="w-full h-full object-cover" alt="GSM Fuzz branding module — cover page" loading="lazy" decoding="async" src="GSM%20Fuzz/MODUL%201_pages-to-jpg-0001.jpg"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">GSM Fuzz Modul</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #fef0b8; color: #6b4605;">Branding</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">Full brand module for GSM Fuzz — identity, posters, and print textures across 6 pages. Click to reveal them all.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#gsmfuzz</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#37204f]" href="#" style="background-color: #c4b3de;"><span class="text-sm">🎸</span> View Project</a></div></div></article>
+<!-- Card 2c: fuzz logo -->
+<article class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#103b40] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">🌀</span> fuzz_logo.png</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#d5edee]"><img class="w-full h-full object-cover" alt="Fuzz logo design" loading="lazy" decoding="async" src="Logo%20design/fuzz%20logo.png"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Fuzz Logo</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #fef0b8; color: #6b4605;">Branding</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">Distorted, gritty wordmark for Fuzz — loud typography with a fuzzy analog personality.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#logo</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#103b40]" href="#" style="background-color: #79cad2;"><span class="text-sm">🌀</span> View Project</a></div></div></article>
+<!-- Card 2d: logo apel sts -->
+<article class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#4e2210] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">🍎</span> logo_apel_sts.png</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#fbe2c5]"><img class="w-full h-full object-cover" alt="Apple STS logo design" loading="lazy" decoding="async" src="Logo%20design/logo%20apel%20sts%20(1).png"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Apple STS Logo</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #fef0b8; color: #6b4605;">Branding</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">Clean apple-and-letters mark for STS — orchard-fresh identity with a crisp stamp feel.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#logo</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#4e2210]" href="#" style="background-color: #f6b595;"><span class="text-sm">🍎</span> View Project</a></div></div></article>
+<!-- Card 2e: senbei -->
+<article class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#523303] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">🍘</span> senbei.png</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#f5ecc2]"><img class="w-full h-full object-cover" alt="Senbei logo design" loading="lazy" decoding="async" src="Logo%20design/SENBEI.png"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Senbei Logo</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #fef0b8; color: #6b4605;">Branding</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">Round, cozy identity for Senbei — snack-branding with warm stamped artistry.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#identity</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#523303]" href="#" style="background-color: #f5c84c;"><span class="text-sm">🍘</span> View Project</a></div></div></article>
+<!-- Card 2f: untitled-1 -->
+<article class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#1f4520] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">🖋️</span> untitled-1.png</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#e4e7c3]"><img class="w-full h-full object-cover" alt="Untitled brand mark concept" loading="lazy" decoding="async" src="Logo%20design/Untitled-1.png"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Minimal Mark</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #fef0b8; color: #6b4605;">Branding</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">Minimal geometric brand mark concept — tight shapework with a fresh, balanced silhouette.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#identity</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#1f4520]" href="#" style="background-color: #b8c96a;"><span class="text-sm">🖋️</span> View Project</a></div></div></article>
+<!-- Card 2g: Character Turn-around (click to reveal 3 views) -->
+<article data-gallery="Character%20design/hadap%20depan.jpg,Character%20design/hadap%20belakang.jpg,Character%20design/hadap%20samping.jpg" class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#3d235a] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">🧍</span> turnaround_3views.zip</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★★★★★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#e8deea]"><img class="w-full h-full object-cover" alt="Character turn-around — front, back, and side views" loading="lazy" decoding="async" src="Character%20design/hadap%20depan.jpg"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Character Turn-around</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #f7d6e0; color: #7b2440;">Character design</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">3-view turn-around sheet — front, back, and side, built for consistent proportions. Click to reveal all three.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#turnaround</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#3d235a]" href="#" style="background-color: #c4b3de;"><span class="text-sm">🧍</span> View Project</a></div></div></article>
+<!-- Card 2h: char sheet 01-02 (click to reveal both) -->
+<article data-gallery="Character%20design/CamScanner%2004-15-2026%2019.51_1.jpg,Character%20design/CamScanner%2004-15-2026%2019.51_2.jpg" class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#203a0e] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">✏️</span> char_sheet_01-02.zip</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★★★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#d8e2b2]"><img class="w-full h-full object-cover" alt="Scanned character study sheets 01-02 — first page" loading="lazy" decoding="async" src="Character%20design/CamScanner%2004-15-2026%2019.51_1.jpg"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Character Sheet 01–02</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #f7d6e0; color: #7b2440;">Character design</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">Scanned character study — pose, anatomy, silhouette, and expressive linework. Click to reveal both pages.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#character</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#203a0e]" href="#" style="background-color: #9fb96a;"><span class="text-sm">✏️</span> View Project</a></div></div></article>
+<!-- Card 2j: char sheet 03 -->
+<article class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#4e2210] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">🎨</span> char_sheet_03.jpg</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#fbe2c5]"><img class="w-full h-full object-cover" alt="Scanned character study sheet 03" loading="lazy" decoding="async" src="Character%20design/CamScanner%2004-22-2026%2016.33.jpg.jpeg"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Character Sheet 03</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #f7d6e0; color: #7b2440;">Character design</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">Scanned character study — gesture sketches and quick structure blocking.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#character</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#4e2210]" href="#" style="background-color: #f6b595;"><span class="text-sm">🎨</span> View Project</a></div></div></article>
+<!-- Card 2k: char sheet 04 -->
+<article class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#523303] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">✨</span> char_sheet_04.jpg</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#f5ecc2]"><img class="w-full h-full object-cover" alt="Scanned character study sheet 04" loading="lazy" decoding="async" src="Character%20design/CamScanner%2004-23-2026%2014.16_1%20(1).jpg.jpeg"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Character Sheet 04</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #f7d6e0; color: #7b2440;">Character design</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">Scanned character study — refined linework and personality details.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#design</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#523303]" href="#" style="background-color: #f5c84c;"><span class="text-sm">✨</span> View Project</a></div></div></article>
+<!-- Card 2l: char sheet 05-07 (click to reveal all three) -->
+<article data-gallery="Character%20design/CamScanner%2004-23-2026%2014.16_2%20(1).jpg.jpeg,Character%20design/CamScanner%2004-23-2026%2014.16_3%20(1).jpg.jpeg,Character%20design/CamScanner%2004-23-2026%2014.16_4%20(1).jpg.jpeg" class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#7b2440] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">🧪</span> char_sheet_05-07.zip</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★★★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#f7d6e0]"><img class="w-full h-full object-cover" alt="Scanned character study sheets 05-07 — first page" loading="lazy" decoding="async" src="Character%20design/CamScanner%2004-23-2026%2014.16_2%20(1).jpg.jpeg"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Character Sheet 05–07</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #f7d6e0; color: #7b2440;">Character design</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">Scanned character study — expression, costume, and final turnaround notes. Click to reveal all three pages.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#design</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#7b2440]" href="#" style="background-color: #e6a0b8;"><span class="text-sm">🧪</span> View Project</a></div></div></article>
+<!-- Card 2o: color study -->
+<article class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#6b4605] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">💛</span> whapp_color_study.jpeg</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#fef0b8]"><img class="w-full h-full object-cover" alt="Character color study" loading="lazy" decoding="async" src="Character%20design/WhatsApp%20Image%202026-04-21%20at%209.31.53%20PM.jpeg"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Color Study</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #f7d6e0; color: #7b2440;">Character design</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">Quick color study focused on palette selection and soft shading.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#color</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#6b4605]" href="#" style="background-color: #f3ce60;"><span class="text-sm">💛</span> View Project</a></div></div></article>
+<!-- Card 2p: doraemon 3D -->
+<article class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#1d3a66] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">🤖</span> doraemon.png</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★★★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#cfe3ff]"><img class="w-full h-full object-cover" alt="3D model of a kawaii robot cat" loading="lazy" decoding="async" src="3D%20Design/doraemon.png"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Robot Cat Model</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #cfe3ff; color: #1d3a66;">3D</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">3D model of a cute robot cat with blocky, playful proportions.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#3d</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#1d3a66]" href="#" style="background-color: #9ab8f0;"><span class="text-sm">🤖</span> View Project</a></div></div></article>
+<!-- Card 2q: gelas 3D -->
+<article class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#103b40] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">🥤</span> gelas.png</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#d5edee]"><img class="w-full h-full object-cover" alt="3D model of a low-poly glass cup" loading="lazy" decoding="async" src="3D%20Design/gelas.png"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Glass Model</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #cfe3ff; color: #1d3a66;">3D</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">Low-poly 3D glass cup study with clean, shiny surfaces.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#3d</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#103b40]" href="#" style="background-color: #79cad2;"><span class="text-sm">🥤</span> View Project</a></div></div></article>
+<!-- Card 2r: kursi 3D -->
+<article class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#523303] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">🪑</span> kursi.png</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#f5ecc2]"><img class="w-full h-full object-cover" alt="3D model of a chair" loading="lazy" decoding="async" src="3D%20Design/kursi.png"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Chair Model</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #cfe3ff; color: #1d3a66;">3D</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">Simple 3D chair model exploring form and clean geometry.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#3d</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#523303]" href="#" style="background-color: #f5c84c;"><span class="text-sm">🪑</span> View Project</a></div></div></article>
+<!-- Card 2s: pedang 3D -->
+<article class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#4e2210] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">⚔️</span> pedang.png</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★★★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#fbe2c5]"><img class="w-full h-full object-cover" alt="3D model of a low-poly sword" loading="lazy" decoding="async" src="3D%20Design/pedang.png"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Sword Model</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #cfe3ff; color: #1d3a66;">3D</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">Low-poly 3D sword model with a chunky game-asset silhouette.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#3d</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#4e2210]" href="#" style="background-color: #f6b595;"><span class="text-sm">⚔️</span> View Project</a></div></div></article>
+<!-- Card 2t: udang 3D -->
+<article class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#7b2440] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">🦐</span> udang.png</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#f7d6e0]"><img class="w-full h-full object-cover" alt="3D model of a low-poly shrimp" loading="lazy" decoding="async" src="3D%20Design/udang.png"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Shrimp Model</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #cfe3ff; color: #1d3a66;">3D</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">Low-poly 3D shrimp model with curved, bouncy character.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#3d</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#7b2440]" href="#" style="background-color: #e6a0b8;"><span class="text-sm">🦐</span> View Project</a></div></div></article>
+<!-- Card 3: ilustrasi personal 1 -->
+<article class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#4e2210] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">🍑</span> ilustrasi_personal_1.jfif</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#fbe2c5]"><img class="w-full h-full object-cover" alt="ilustrasi personal 01 — original artwork" loading="lazy" decoding="async" src="ilustrasi%20personal/ilustrasi%20personal%201.jfif"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Personal Illustration 01</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #fde3d6; color: #632d16;">personal illustrations</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">Kickoff piece in my personal illustration series, full of character, color, and cozy orchard textures.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#illustration</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#4e2210]" href="#" style="background-color: #f6b595;"><span class="">★</span> View Project</a></div></div></article>
+<!-- Card 3b: ilustrasi personal 2 -->
+<article class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#4e2210] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">🍎</span> ilustrasi_personal_2.jfif</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#fbe2c5]"><img class="w-full h-full object-cover" alt="ilustrasi personal 02 — original artwork" loading="lazy" decoding="async" src="ilustrasi%20personal/ilustrasi%20personal%202.jfif"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Personal Illustration 02</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #fde3d6; color: #632d16;">personal illustrations</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">Original personal illustration exploring character, color, and painterly texture.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#original</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#4e2210]" href="#" style="background-color: #f6b595;"><span class="text-sm">🍎</span> View Project</a></div></div></article>
+<!-- Card 3c: ilustrasi personal 3 -->
+<article class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#203a0e] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">🍏</span> ilustrasi_personal_3.jfif</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★★★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#d8e2b2]"><img class="w-full h-full object-cover" alt="ilustrasi personal 03 — bold shapes and cozy colors" loading="lazy" decoding="async" src="ilustrasi%20personal/ilustrasi%20personal%203.jfif"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Personal Illustration 03</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #fde3d6; color: #632d16;">personal illustrations</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">A playful piece drawn for fun — bold shapes in a cozy candy palette.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#doodle</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#203a0e]" href="#" style="background-color: #a4ce55;"><span class="text-sm">🍏</span> View Project</a></div></div></article>
+<!-- Card 3d: ilustrasi personal 4 -->
+<article class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#523303] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">🌻</span> ilustrasi_personal_4.jfif</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#f5ecc2]"><img class="w-full h-full object-cover" alt="ilustrasi personal 04 — hand-painted orchard study" loading="lazy" decoding="async" src="ilustrasi%20personal/ilustrasi%20personal%204.jfif"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Personal Illustration 04</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #fde3d6; color: #632d16;">personal illustrations</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">Hand-painted study with warm orchard tones and soft, loose brushwork.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#studies</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#523303]" href="#" style="background-color: #f5c84c;"><span class="text-sm">🌻</span> View Project</a></div></div></article>
+<!-- Card 3e: ilustrasi personal 5 -->
+<article class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#37204f] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">✨</span> ilustrasi_personal_5.jfif</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#e8deea]"><img class="w-full h-full object-cover" alt="ilustrasi personal 05 — expressive experimental piece" loading="lazy" decoding="async" src="ilustrasi%20personal/ilustrasi%20personal%205.jfif"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Personal Illustration 05</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #fde3d6; color: #632d16;">personal illustrations</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">Expressive experimental illustration with bold strokes and dreamy colors.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#experiment</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#37204f]" href="#" style="background-color: #c4b3de;"><span class="text-sm">✨</span> View Project</a></div></div></article>
+<!-- Card 3f: ilustrasi personal 6 -->
+<article class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#103b40] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">🎨</span> ilustrasi_personal_6.jfif</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★★★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#d5edee]"><img class="w-full h-full object-cover" alt="ilustrasi personal 06 — character design sketch" loading="lazy" decoding="async" src="ilustrasi%20personal/ilustrasi%20personal%206.jfif"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Personal Illustration 06</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #fde3d6; color: #632d16;">personal illustrations</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">Character design sketch exploring expressions, lighting, and atmosphere.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#character</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#103b40]" href="#" style="background-color: #79cad2;"><span class="text-sm">🎨</span> View Project</a></div></div></article>
+<!-- Card 3g: ilustrasi personal 7 -->
+<article class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#6b2a2a] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">❤️</span> ilustrasi_personal_7.jfif</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#f6ddcf]"><img class="w-full h-full object-cover" alt="ilustrasi personal 07 — soft textures, vivid accents" loading="lazy" decoding="async" src="ilustrasi%20personal/ilustrasi%20personal%207.jfif"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Personal Illustration 07</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #fde3d6; color: #632d16;">personal illustrations</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">Personal art exercise mixing soft textures with vivid, high-energy accents.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#moodboard</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#6b2a2a]" href="#" style="background-color: #e9a98c;"><span class="text-sm">❤️</span> View Project</a></div></div></article>
+<!-- Card 3h: ilustrasi personal 8 -->
+<article class="bg-cream-light border-[3px] border-espresso rounded-xl overflow-hidden shadow-chunky flex flex-col hover:-translate-y-1 transition-transform"><div class="text-[#1f4520] px-3.5 py-2 border-b-[3px] border-espresso flex justify-between items-center font-mono text-xs font-bold select-none" style="background-image: radial-gradient(rgba(255, 255, 255, 0.35) 1.5px, transparent 1.5px), linear-gradient(rgb(125, 168, 50) 0%, rgb(164, 206, 56) 40%, rgb(230, 211, 58) 85%, rgb(244, 232, 87) 100%); background-size: 10px 10px, 100% 100%;"><span class="flex items-center gap-1.5 font-extrabold"><span class="text-sm">☘️</span> ilustrasi_personal_8.jfif</span><span class="text-[#fcf5de] drop-shadow-[1px_1px_0px_#3a1d13]">★</span></div><div class="p-4 flex flex-col flex-1"><div class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-32 mb-3 bg-[#e4e7c3]"><img class="w-full h-full object-cover" alt="ilustrasi personal 08 — wholesome mini-scene" loading="lazy" decoding="async" src="ilustrasi%20personal/ilustrasi%20personal%208.jfif"></div><div class="flex items-center justify-between mb-1.5"><h3 class="font-title font-bold text-base text-sage-dark">Personal Illustration 08</h3><span class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none" style="background-color: #fde3d6; color: #632d16;">personal illustrations</span></div><p class="font-body text-xs text-[#522b1b] flex-1 mb-4 leading-relaxed">Wholesome mini-scene packed with warm details and hand-drawn charm.</p><div class="pt-3 border-t-[1.5px] border-dashed border-espresso/30 flex items-center justify-between"><span class="font-mono text-[11px] text-sage-dark font-bold">#art</span><a class="btn-squishy font-title font-bold text-xs px-3.5 py-1.5 rounded-full border-[1.5px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none text-[#1f4520]" href="#" style="background-color: #b8c96a;"><span class="text-sm">☘️</span> View Project</a></div></div></article>
+</div>
+</section>
+<!-- Divider 4: Big Chunky Separator Badges (end of orchard tour & lets connect!) from SCREEN_7 -->
+<div aria-hidden="true" class="flex items-center justify-center gap-4 sm:gap-6 py-6 sm:py-9 select-none relative z-10">
+<div class="flex flex-row items-center justify-center gap-3 sm:gap-6 flex-wrap md:flex-nowrap"><span class="text-accent-yellow animate-twinkle-1 drop-shadow-[2px_2px_0px_#3a1d13] text-2xl sm:text-4xl font-black">✦</span><div class="btn-squishy bg-[#fffdf0] border-[5px] sm:border-[6px] border-espresso rounded-full px-5 sm:px-10 py-3 sm:py-4 shadow-[8px_8px_0px_#3a1d13] flex items-center gap-2.5 sm:gap-3 rotate-[-3deg] whitespace-nowrap"><span class="text-2xl sm:text-4xl">🍎</span><span class="font-title text-lg sm:text-2xl font-black text-espresso tracking-wide">100% fresh pick</span></div><span class="text-[#fffdf0] animate-twinkle-2 drop-shadow-[2px_2px_0px_#3a1d13] text-2xl sm:text-4xl font-bold">✧</span><div class="btn-squishy bg-accent-yellow border-[5px] sm:border-[6px] border-espresso rounded-full px-5 sm:px-10 py-3 sm:py-4 shadow-[8px_8px_0px_#3a1d13] flex items-center gap-2.5 sm:gap-3 rotate-[3deg] whitespace-nowrap"><span class="text-2xl sm:text-4xl font-black">★</span><span class="font-title text-lg sm:text-2xl font-black text-espresso tracking-wide">growth gauge</span><span class="text-2xl sm:text-4xl">☘</span></div><span class="text-accent-yellow animate-twinkle-3 drop-shadow-[2px_2px_0px_#3a1d13] text-2xl sm:text-4xl font-black">✨</span></div>
+</div>
+</div>
+<!-- 4. FOOTER (Featuring copyright text, social links Carrd-style pills for Instagram, WhatsApp, Gmail, clean "▲ Back to Top" button, and the inspo note) -->
+<footer class="border-t-[3.5px] border-espresso p-5 sm:p-7 flex flex-col gap-5 text-espresso relative overflow-hidden bg-[#69792c]" id="footer-contact" style="background-image: radial-gradient(rgba(255, 255, 255, 0.22) 2px, transparent 2px); background-size: 14px 14px;">
+<!-- Now-Playing Retro Player / Cassette Ribbon (matching SCREEN_7) -->
+<div class="bg-[#fcf6dc] border-[3px] border-espresso rounded-2xl p-3 sm:p-4 shadow-chunky flex flex-wrap items-center justify-between gap-3 font-mono text-xs text-espresso">
+<div class="flex items-center gap-2.5">
+<button id="player-toggle" aria-label="Play music" aria-pressed="false" class="btn-squishy bg-[#9b2125] text-white w-7 h-7 rounded-lg border-[2px] border-espresso flex items-center justify-center text-sm shadow-chunky-sm select-none">▶</button>
+<div>
+<div class="font-title font-bold text-xs sm:text-sm text-espresso flex items-center gap-1.5"><span class="text-[#9b2125]">♫</span> NOW PLAYING: Sweetest Pie by Megan &amp; Dua</div>
+<div id="player-time" class="text-[10px] text-sage-dark font-bold font-mono select-none">01:42 / 03:21 • 128kbps AppleFM stereo</div>
+</div>
+</div>
+<div class="flex items-center gap-2">
+<div id="player-track" role="progressbar" aria-label="Song progress" aria-valuemin="0" aria-valuemax="201" aria-valuenow="102" class="w-24 sm:w-36 h-3 bg-cream-dark border-[2px] border-espresso rounded-full overflow-hidden p-0.5 cursor-pointer">
+<div id="player-fill" class="h-full bg-[#69792c] rounded-full w-1/2 hover:bg-[#85974b] transition-colors"></div>
+</div>
+<a class="btn-squishy bg-accent-yellow hover:bg-accent-yellow-dark border-[2px] border-espresso rounded-xl px-3.5 py-1 font-title font-bold text-xs text-espresso shadow-chunky-sm flex items-center justify-center gap-1 select-none" href="#home"><span class="">▲</span> Back to Top</a>
+</div>
+</div>
+<!-- Carrd-Style Social Links Bar -->
+<div class="bg-cream-light border-[3px] border-espresso rounded-2xl p-4 sm:p-6 shadow-chunky">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3.5 mb-4">
+<div class="flex items-center gap-2">
+<span class="text-lg">💌</span>
+<span class="font-title font-bold text-xs sm:text-sm text-espresso">Connect with Risma Aprillia across the web:</span>
+</div>
+<span class="font-mono text-xs font-bold text-sage-dark bg-[#fcf5de] border-[1.5px] border-espresso px-2.5 py-1 rounded-lg shadow-chunky-sm select-none">@akumemangpecintadaunbawang</span>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+<div class="flex flex-col items-center gap-1"><a class="btn-squishy bg-[#d6e3a8] hover:bg-[#becf69] text-espresso font-title font-bold text-xs px-3.5 py-2.5 rounded-xl border-[2px] border-espresso shadow-chunky-sm flex items-center justify-between select-none w-full" href="https://instagram.com/akumemangpecintadaunbawang" target="_blank">
+<span class="flex items-center gap-1.5"><span class="">📷</span> Instagram</span>
+<span class="font-mono text-[10px]">↗</span>
+</a><span class="font-mono text-[10px] text-[#fffdf0] select-all break-all">@/akumemangpecintadaunbawang</span></div>
+<div class="flex flex-col items-center gap-1"><a class="btn-squishy bg-[#d6e3a8] hover:bg-[#becf69] text-espresso font-title font-bold text-xs px-3.5 py-2.5 rounded-xl border-[2px] border-espresso shadow-chunky-sm flex items-center justify-between select-none w-full" href="https://wa.me/6285119544465" target="_blank">
+<span class="flex items-center gap-1.5"><span class="">💬</span> WhatsApp</span>
+<span class="font-mono text-[10px]">↗</span>
+</a><span class="font-mono text-[10px] text-[#fffdf0] select-all break-all">085119544465</span></div>
+<div class="flex flex-col items-center gap-1"><a class="btn-squishy bg-[#fbe2c5] hover:bg-[#e4b382] text-espresso font-title font-bold text-xs px-3.5 py-2.5 rounded-xl border-[2px] border-espresso shadow-chunky-sm flex items-center justify-between select-none w-full" href="mailto:aprilliamush@gmail.com" target="_blank">
+<span class="flex items-center gap-1.5"><span class="">🍏</span> Gmail</span>
+<span class="font-mono text-[10px]">↗</span>
+</a><span class="font-mono text-[10px] text-[#fffdf0] select-all break-all">aprilliamush@gmail.com</span></div>
+</div>
+</div>
+<!-- Bottom Curly Doodle Ribbon & Webring Credit -->
+<div class="overflow-hidden select-none whitespace-nowrap text-[#fffbe8] text-sm sm:text-base font-body leading-none opacity-90 tracking-wider text-center pt-1 pb-1 flex justify-center items-center"><span class="curly-doodle inline-block">🍎‧₊˚♪ 𝄞₊˚⊹ 🍎‧₊˚♪ 𝄞₊˚⊹ 🍎‧₊˚♪ 𝄞₊˚⊹ 🍎‧₊˚♪ 𝄞₊˚⊹ 🍎‧₊˚♪ 𝄞₊˚⊹ 🍎‧₊˚♪ 𝄞₊˚⊹ 🍎‧₊˚♪ 𝄞₊˚⊹ 🍎‧₊˚♪ 𝄞₊˚⊹</span></div>
+<div class="text-center font-mono text-[11px] text-[#fcf5de] opacity-95 pb-1 font-bold tracking-wide">
+  ( Member of the Sweet Apple Webring 2024 ★ Handcrafted by Risma Aprillia )
+</div>
+</footer>
+</div>
+<!-- Polaroid Bottom Caption "( Made with Carrd )" style -->
+<div class="flex items-center justify-center gap-6 pt-3 select-none text-base opacity-80"><span class="sticker-squishy">🍎</span><span class="sticker-squishy">🍎</span><span class="sticker-squishy">🍎</span><span class="sticker-squishy">🍎</span><span class="sticker-squishy">🍎</span><span class="sticker-squishy">🍎</span></div></main>
+
+
+<!-- Project Preview Modal -->
+<div id="project-modal" class="fixed inset-0 z-[100] hidden items-center justify-center p-4" style="display:none;" role="dialog" aria-modal="true" aria-labelledby="project-modal-title">
+  <div class="modal-backdrop absolute inset-0 bg-[#3a1d13]/80" data-modal-close></div>
+  <div class="modal-panel relative w-full max-w-lg bg-[#fcf6dc] border-[4px] border-espresso rounded-2xl shadow-[10px_10px_0px_rgba(0,0,0,0.35)] p-5 sm:p-6 max-h-[85vh] overflow-y-auto">
+    <button id="project-modal-close" type="button" aria-label="Close preview" class="btn-squishy absolute top-3 right-3 bg-accent-yellow hover:bg-accent-yellow-dark border-[2px] border-espresso rounded-lg w-8 h-8 flex items-center justify-center font-black text-espresso shadow-chunky-sm select-none">&times;</button>
+    <span id="project-modal-tag" class="font-mono text-[10px] font-bold px-2.5 py-0.5 rounded border-[1.5px] border-espresso select-none">Digital</span>
+    <h3 id="project-modal-title" class="font-title font-extrabold text-xl sm:text-2xl text-sage-dark mt-2 mb-1"></h3>
+    <p id="project-modal-sub" class="font-mono text-[11px] text-sage-dark font-bold select-none mb-3"></p>
+    <div id="project-modal-visual" class="border-[2.5px] border-espresso rounded-lg overflow-hidden h-44 mb-4 bg-[#d8e2b2] flex items-center justify-center p-2"></div>
+    <p id="project-modal-desc" class="font-body text-sm leading-relaxed text-[#422115] mb-4"></p>
+    <div class="flex items-center justify-between gap-2 border-t-[2px] border-dashed border-espresso/30 pt-3">
+      <span id="project-modal-meta" class="font-mono text-[11px] text-sage-dark font-bold">#portfolio</span>
+      <button id="project-modal-gallery" type="button" class="btn-squishy bg-[#9b2125] hover:bg-[#83181c] text-[#fffdf0] font-title font-bold text-xs px-3.5 py-1.5 rounded-xl border-[2px] border-espresso shadow-chunky-sm flex items-center gap-1 select-none"><span class="">★</span> Full gallery coming soon!</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function scrollToId(id) {
+    var el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: reducedMotion ? 'auto' : 'smooth', block: 'start' });
+  }
+  function go(target) {
+    if (target === 'top') {
+      window.scrollTo({ top: 0, behavior: reducedMotion ? 'auto' : 'smooth' });
+    } else if (target === 'bottom') {
+      window.scrollTo({ top: document.body.scrollHeight, behavior: reducedMotion ? 'auto' : 'smooth' });
+    } else {
+      scrollToId(target);
+    }
+  }
+  function normalize(s) { return s.replace(/[^a-z0-9]/gi, '').toLowerCase(); }
+
+  // ---------- Top-bar browser chrome (back / home / forward / bookmark / search) ----------
+  var headerActions = {
+    'Back': 'top',
+    'Back history': 'top',
+    'Home': 'home',
+    'Forward': 'bottom',
+    'Forward history': 'bottom',
+    'Bookmark': 'portfolio',
+    'Search': 'portfolio'
+  };
+  document.querySelectorAll('main button[aria-label]').forEach(function (btn) {
+    var lbl = btn.getAttribute('aria-label');
+    if (!headerActions[lbl]) return;
+    btn.addEventListener('click', function () {
+      if (lbl === 'Search') pulseFilter();
+      go(headerActions[lbl]);
+    });
+  });
+
+  // COMMISSIONS badge in the hero scrolls to the socials footer
+  var commissionsEl = null;
+  document.querySelectorAll('#home span').forEach(function (s) {
+    if (s.textContent.indexOf('COMMISSIONS') !== -1) commissionsEl = s;
+  });
+  if (commissionsEl) {
+    commissionsEl.addEventListener('click', function () { go('footer-contact'); });
+  }
+
+  // ---------- Project filtering ----------
+  var grid = document.getElementById('project-grid');
+  var countEl = document.getElementById('project-count');
+  var filterBtns = document.querySelectorAll('#project-filters button');
+  var CATEGORIES = ['All Projects', 'Character design', 'Branding', '3D', 'personal illustrations'];
+
+  function canonicalCategory(norm) {
+    for (var i = 0; i < CATEGORIES.length; i++) {
+      if (normalize(CATEGORIES[i]) === norm) return CATEGORIES[i];
+    }
+    return 'All Projects';
+  }
+  function cardCategory(card) {
+    var spans = card.querySelectorAll('span');
+    for (var i = 0; i < spans.length; i++) {
+      var t = spans[i].textContent.trim();
+      for (var c = 1; c < CATEGORIES.length; c++) {
+        if (t === CATEGORIES[c]) return CATEGORIES[c];
+      }
+    }
+    return 'Character design';
+  }
+  function setFilterPill(btn, on) {
+    btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+    if (on) {
+      btn.classList.add('bg-[#9b2125]', 'text-[#fffdf0]', 'hover:bg-[#83181c]');
+      btn.classList.remove('bg-[#fcf5de]', 'hover:bg-accent-yellow');
+    } else {
+      btn.classList.remove('bg-[#9b2125]', 'text-[#fffdf0]', 'hover:bg-[#83181c]');
+      btn.classList.add('bg-[#fcf5de]', 'hover:bg-accent-yellow');
+    }
+  }
+  function applyFilter(cat) {
+    var shown = 0;
+    grid.querySelectorAll('article').forEach(function (card) {
+      var visible = cat === 'All Projects' || cardCategory(card) === cat;
+      card.style.display = visible ? '' : 'none';
+      if (visible) shown++;
+    });
+    if (countEl) countEl.textContent = shown + ' item' + (shown === 1 ? '' : 's') + ' loaded';
+    filterBtns.forEach(function (btn) {
+      setFilterPill(btn, normalize(btn.textContent) === normalize(cat));
+    });
+  }
+  filterBtns.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      applyFilter(canonicalCategory(normalize(btn.textContent)));
+    });
+  });
+  if (grid && countEl) applyFilter('All Projects');
+
+  // Search button pulse highlight on the active filter
+  function pulseFilter() {
+    go('portfolio');
+    var allBtn = filterBtns[0];
+    if (!allBtn) return;
+    allBtn.style.outline = '3px solid #f3ce60';
+    allBtn.style.outlineOffset = '2px';
+    setTimeout(function () {
+      allBtn.style.outline = '';
+      allBtn.style.outlineOffset = '';
+    }, 1600);
+  }
+
+  // ---------- Artwork carousel ----------
+  var carousel = document.getElementById('art-carousel');
+  if (carousel) {
+    var slides = [
+      { src: 'Character%20design/hadap%20depan.jpg', alt: 'Character turn-around — front view', tag: '// character design //' },
+      { src: '3D%20Design/doraemon.png', alt: '3D robot cat model', tag: '// 3d design //' },
+      { src: 'ilustrasi%20personal/ilustrasi%20personal%201.jfif', alt: 'Personal illustration 01', tag: '// illustration //' },
+      { src: '3D%20Design/pedang.png', alt: 'Low-poly sword model', tag: '// 3d design //' },
+      { src: 'Character%20design/hadap%20belakang.jpg', alt: 'Character turn-around — back view', tag: '// character design //' },
+      { src: 'ilustrasi%20personal/ilustrasi%20personal%205.jfif', alt: 'Personal illustration 05', tag: '// illustration //' }
+    ];
+    var preview = carousel.querySelector('.h-44');
+    if (preview) preview.setAttribute('aria-live', 'polite');
+    var dotsWrap = document.getElementById('carousel-dots');
+    var carouselCount = document.getElementById('carousel-count');
+    var prevBtn = carousel.querySelector('button[aria-label="Previous slide"]');
+    var nextBtn = carousel.querySelector('button[aria-label="Next slide"]');
+    var dots = [];
+    var current = 0;
+    var autoTimer = null;
+
+    function buildDots() {
+      if (!dotsWrap) return;
+      dotsWrap.innerHTML = '';
+      dots = [];
+      for (var i = 0; i < slides.length; i++) {
+        (function (idx) {
+          var dot = document.createElement('button');
+          dot.setAttribute('aria-label', 'Slide ' + (idx + 1));
+          dot.className = 'btn-squishy w-3 h-3 rounded-full bg-[#d6e3a8] hover:bg-[#bd3a3a] border border-espresso focus:outline-none';
+          dot.addEventListener('click', function () { renderCarousel(idx); startAuto(); });
+          dotsWrap.appendChild(dot);
+          dots.push(dot);
+        })(i);
+      }
+    }
+    function renderCarousel(i) {
+      current = ((i % slides.length) + slides.length) % slides.length;
+      var slide = slides[current];
+      var imgEl = document.getElementById('art-slide-img');
+      if (imgEl) { imgEl.src = slide.src; imgEl.alt = slide.alt; }
+      var tagEl = document.getElementById('art-slide-tag');
+      if (tagEl) tagEl.textContent = slide.tag + '  ' + (current + 1) + '/' + slides.length;
+      for (var d = 0; d < dots.length; d++) {
+        dots[d].style.backgroundColor = d === current ? '#9b2125' : '#d6e3a8';
+        if (d === current) dots[d].setAttribute('aria-current', 'true');
+        else dots[d].removeAttribute('aria-current');
+      }
+      if (carouselCount) carouselCount.textContent = (current + 1) + ' / ' + slides.length;
+    }
+    function stopAuto() { if (autoTimer) { clearInterval(autoTimer); autoTimer = null; } }
+    function startAuto() {
+      if (reducedMotion) return;
+      stopAuto();
+      autoTimer = setInterval(function () { renderCarousel(current + 1); }, 3000);
+    }
+    if (prevBtn) prevBtn.addEventListener('click', function () { renderCarousel(current - 1); startAuto(); });
+    if (nextBtn) nextBtn.addEventListener('click', function () { renderCarousel(current + 1); startAuto(); });
+    carousel.addEventListener('mouseenter', stopAuto);
+    carousel.addEventListener('mouseleave', startAuto);
+    carousel.addEventListener('focusin', stopAuto);
+    carousel.addEventListener('focusout', function () {
+      if (!carousel.contains(document.activeElement)) startAuto();
+    });
+    buildDots();
+    renderCarousel(0);
+    startAuto();
+  }
+
+  // ---------- Project preview modal ----------
+  var modal = document.getElementById('project-modal');
+  if (modal) {
+    var modalTitle = document.getElementById('project-modal-title');
+    var modalTag = document.getElementById('project-modal-tag');
+    var modalSub = document.getElementById('project-modal-sub');
+    var modalVisual = document.getElementById('project-modal-visual');
+    var modalDesc = document.getElementById('project-modal-desc');
+    var modalMeta = document.getElementById('project-modal-meta');
+    var modalClose = document.getElementById('project-modal-close');
+    var modalGallery = document.getElementById('project-modal-gallery');
+    var lastFocused = null;
+
+    function openModal(card) {
+      var titleEl = card.querySelector('h3');
+      var descEl = card.querySelector('p');
+      var headerEl = card.querySelector('.font-mono');
+      var badge = null;
+      card.querySelectorAll('span').forEach(function (s) {
+        var t = s.textContent.trim();
+        if (CATEGORIES.indexOf(t) !== -1) badge = s;
+      });
+      var meta = null;
+      card.querySelectorAll('span').forEach(function (s) {
+        if (/^#/.test(s.textContent.trim())) meta = s;
+      });
+      var visual = card.querySelector('.h-32');
+      var img = visual ? visual.querySelector('img') : null;
+
+      modalTitle.textContent = titleEl ? titleEl.textContent.trim() : 'Project';
+      modalDesc.textContent = descEl ? descEl.textContent.trim() : '';
+      modalSub.textContent = headerEl ? headerEl.textContent.replace(/[★☆♫♬☘✦]/g, '').trim() : '';
+      modalTag.textContent = badge ? badge.textContent.trim() : 'Character design';
+      modalTag.style.backgroundColor = badge ? badge.style.backgroundColor : '#d6efaa';
+      modalTag.style.color = badge ? badge.style.color : '#224410';
+      modalMeta.textContent = meta ? meta.textContent.trim() : '#featured';
+
+      var gallerySrcs = card.getAttribute('data-gallery');
+      modalVisual.innerHTML = '';
+      if (gallerySrcs) {
+        var gSrcs = gallerySrcs.split(',').map(function (s) { return s.trim(); });
+        modalVisual.className = 'flex flex-col gap-3 mb-4';
+        gSrcs.forEach(function (src, idx) {
+          var g = document.createElement('img');
+          g.src = src;
+          g.alt = modalTitle.textContent + ' — page ' + (idx + 1) + ' of ' + gSrcs.length;
+          g.className = 'w-full h-auto object-contain rounded-lg bg-[#f5ecc2] border-[2.5px] border-espresso';
+          modalVisual.appendChild(g);
+        });
+      } else if (img) {
+        var imgClone = img.cloneNode(false);
+        imgClone.removeAttribute('loading');
+        imgClone.className = 'w-full h-auto object-contain rounded-lg';
+        modalVisual.className = 'border-[2.5px] border-espresso rounded-lg overflow-hidden mb-4 bg-[#f5ecc2] flex items-center justify-center';
+        modalVisual.appendChild(imgClone);
+      } else if (visual) {
+        var placeholder = visual.querySelector('.w-full.h-full');
+        modalVisual.className = 'border-[2.5px] border-espresso rounded-lg overflow-hidden h-44 mb-4 bg-[#d8e2b2] flex items-center justify-center p-2';
+        if (placeholder) modalVisual.appendChild(placeholder.cloneNode(true));
+      }
+
+      lastFocused = document.activeElement;
+      modal.style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+      if (modalClose) modalClose.focus();
+    }
+    function closeModal() {
+      modal.style.display = 'none';
+      document.body.style.overflow = '';
+      if (lastFocused && lastFocused.focus) lastFocused.focus();
+    }
+    if (modalClose) modalClose.addEventListener('click', closeModal);
+    if (modalGallery) modalGallery.addEventListener('click', function () {
+      closeModal();
+      go('footer-contact');
+    });
+    if (grid) {
+      grid.addEventListener('click', function (e) {
+        var link = e.target.closest('a[href="#"]');
+        if (!link) return;
+        e.preventDefault();
+        var card = link.closest('article');
+        if (card) openModal(card);
+      });
+    }
+    modal.addEventListener('click', function (e) {
+      if (e.target === modal || e.target.closest('[data-modal-close]')) closeModal();
+    });
+    modal.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') closeModal();
+      if (e.key !== 'Tab') return;
+      var focusables = modal.querySelectorAll('button, a[href], [tabindex]:not([tabindex="-1"])');
+      if (!focusables.length) return;
+      var first = focusables[0];
+      var last = focusables[focusables.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    });
+  }
+
+  // ---------- Now Playing player ----------
+  var playerToggle = document.getElementById('player-toggle');
+  var playerTrack = document.getElementById('player-track');
+  var playerFill = document.getElementById('player-fill');
+  var playerTime = document.getElementById('player-time');
+  if (playerToggle && playerTrack && playerFill) {
+    var DURATION = 201, currentSec = 102, playing = false, ticker = null;
+
+    function fmt(s) {
+      var m = Math.floor(s / 60), sec = s % 60;
+      return (m < 10 ? '0' : '') + m + ':' + (sec < 10 ? '0' : '') + sec;
+    }
+    function renderPlayer() {
+      var pct = Math.min(100, (currentSec / DURATION) * 100);
+      playerFill.style.width = pct + '%';
+      playerTrack.setAttribute('aria-valuenow', String(Math.round(currentSec)));
+      if (playerTime) playerTime.textContent = fmt(currentSec) + ' / ' + fmt(DURATION) + ' • 128kbps AppleFM stereo';
+    }
+    function pause() {
+      playing = false;
+      playerToggle.setAttribute('aria-pressed', 'false');
+      playerToggle.innerHTML = '&#9654;';
+      if (ticker) { clearInterval(ticker); ticker = null; }
+    }
+    function play() {
+      if (currentSec >= DURATION) currentSec = 0;
+      playing = true;
+      playerToggle.setAttribute('aria-pressed', 'true');
+      playerToggle.innerHTML = '&#9208;';
+      if (ticker) clearInterval(ticker);
+      ticker = setInterval(function () {
+        if (currentSec >= DURATION) { pause(); }
+        else { currentSec++; renderPlayer(); }
+      }, 1000);
+    }
+    playerToggle.addEventListener('click', function () { playing ? pause() : play(); });
+    function spillGauge(original) {
+      var wasPlaying = playing;
+      if (playing) pause();
+      stopGaugeAnim();
+      if (reducedMotion) {
+        currentSec = 0; renderPlayer();
+        currentSec = original; renderPlayer();
+        if (wasPlaying) play();
+        return;
+      }
+      var t0 = null;
+      function step(now) {
+        if (t0 === null) t0 = now;
+        var el = (now - t0) / 1000;
+        if (el > 1) el = 1;
+        var v;
+        if (el < 0.4) {
+          v = original * (1 - (el / 0.4));
+        } else {
+          v = ((el - 0.4) / 0.6) * original;
+        }
+        currentSec = Math.round(Math.max(0, Math.min(DURATION, v)));
+        renderPlayer();
+        if (el < 1) {
+          gaugeAnim = requestAnimationFrame(step);
+        } else {
+          currentSec = original;
+          renderPlayer();
+          gaugeAnim = null;
+          if (wasPlaying) play();
+        }
+      }
+      gaugeAnim = requestAnimationFrame(step);
+    }
+    var gaugeAnim = null;
+    function stopGaugeAnim() { if (gaugeAnim) { cancelAnimationFrame(gaugeAnim); gaugeAnim = null; } }
+    playerTrack.addEventListener('click', function () { spillGauge(currentSec); });
+    renderPlayer();
+  }
+
+  // ---------- Apple sprout on portrait / non-interactive clicks ----------
+  function isInteractableEl(el) {
+    for (; el && el.nodeType === 1; el = el.parentElement) {
+      if (el.matches && el.matches('a, button, input, select, textarea, summary, label, [contenteditable="true"], [role="button"], [tabindex]')) return true;
+    }
+    return false;
+  }
+  function appleBurst(cx, cy) {
+    if (reducedMotion) return;
+    for (var i = 0; i < 8; i++) {
+      var a = (i / 8) * Math.PI * 2 + Math.random() * 0.7;
+      var d = 45 + Math.random() * 55;
+      var dx = Math.cos(a) * d;
+      var dy = Math.sin(a) * d - 12;
+      var s = document.createElement('span');
+      s.className = 'apple-pop';
+      s.textContent = '🍎';
+      s.style.left = cx + 'px';
+      s.style.top = cy + 'px';
+      s.style.fontSize = (16 + Math.random() * 16) + 'px';
+      s.style.setProperty('--dx', dx.toFixed(1) + 'px');
+      s.style.setProperty('--dy', dy.toFixed(1) + 'px');
+      s.style.setProperty('--rot', (Math.random() * 60 - 30).toFixed(1) + 'deg');
+      s.style.animationDelay = (Math.random() * 0.08) + 's';
+      document.body.appendChild(s);
+      (function (el) {
+        setTimeout(function () { if (el.parentNode) el.parentNode.removeChild(el); }, 1200);
+      })(s);
+    }
+  }
+  document.addEventListener('click', function (e) {
+    if (reducedMotion) return;
+    if (isInteractableEl(e.target)) return;
+    appleBurst(e.clientX, e.clientY);
+  });
+
+  // ---------- Decorative sticker buttons should not be keyboard-focusable ----------
+  ['Apple badge', 'Star badge', 'Sprout badge'].forEach(function (lbl) {
+    var b = document.querySelector('button[aria-label="' + lbl + '"]');
+    if (b) {
+      b.disabled = true;
+      b.setAttribute('tabindex', '-1');
+    }
+  });
+})();
+</script>
+</body></html>
